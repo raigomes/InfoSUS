@@ -1,42 +1,63 @@
-﻿<!DOCTYPE html>
-<!--
-       Licensed to the Apache Software Foundation (ASF) under one
-       or more contributor license agreements.  See the NOTICE file
-       distributed with this work for additional information
-       regarding copyright ownership.  The ASF licenses this file
-       to you under the Apache License, Version 2.0 (the
-       "License"); you may not use this file except in compliance
-       with the License.  You may obtain a copy of the License at
+﻿<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements. See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership. The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License. You may obtain a copy of the License at
 
-         http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-       Unless required by applicable law or agreed to in writing,
-       software distributed under the License is distributed on an
-       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-       KIND, either express or implied.  See the License for the
-       specific language governing permissions and limitations
-       under the License.
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied. See the License for the
+specific language governing permissions and limitations
+under the License.
 -->
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="cordova.js">
+    </script>
+    <script type="text/javascript" src="js/index.js">
+    </script>
+    <script type="text/javascript"
+            src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0">
+    </script>
+    <title>InfoSUS App</title>
+</head>
+<body>
+    <h1>InfoSUS App</h1>
+    <div class="app" style="display: block;">
+        <button class="button1" onclick="">Unidades de Saúde</button><br>
+        <button class="button2" onclick="">Conheça o SUS</button> <br>
+        <button class="button3" onclick="">Telefones úteis</button> <br>
+    </div>
+    <br>
+
+    <div id="Unidades" class="app" style="display: none;">
+        <button class="button1" onclick="">Unidades mais próximas</button> <br>
+        <button class="button2" onclick="">Postos de Saúde</button> <br>
+        <button class="button3" onclick="">Medico de Família</button> <br>
+        <button class="button4" onclick="">Policlínicas</button> <br>
+        <button class="button5" onclick="">Urgência / Emergência</button> <br>
+        <button class="button6" onclick="">Hospitais</button> <br>
+        <button class="button7" onclick="">Saúde Mental</button> <br>
+        <br>
+        <img id="backbutton" alt="Back" src="img/back_button.png" onclick="goBack(this.id);"> <br>
+    </div>
+    <div id="Map" class="app" style="display: none;">
+        <img id="backbutton" alt="Back" src="img/back_button.png" onclick="goBack(this.id);"> <br>
+    </div>
+    <div id="Results" class="app" style="display: none;">
+        <img id="backbutton" alt="Back" src="img/back_button.png" onclick="goBack(this.id);"> <br>
+    </div>
+</body>
 </html>

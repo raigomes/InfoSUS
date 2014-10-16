@@ -163,6 +163,7 @@
   <ItemGroup>
     <Content Include="config.xml" />
     <Content Include="www\cordova.js" />
+    <Content Include="www\img\back_button.png" />
     <Content Include="www\index.html" />
     <Content Include="www\css\index.css" />
     <Content Include="www\js\index.js" />
