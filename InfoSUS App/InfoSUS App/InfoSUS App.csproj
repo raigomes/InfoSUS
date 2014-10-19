@@ -162,8 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.xml" />
+    <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="www\cordova.js" />
     <Content Include="www\img\back_button.png" />
+    <Content Include="www\img\Símbolo do SUS.png" />
     <Content Include="www\index.html" />
     <Content Include="www\css\index.css" />
     <Content Include="www\js\index.js" />
@@ -190,6 +194,8 @@
     <None Include="cordova\log.bat" />
     <None Include="cordova\run.bat" />
     <None Include="cordova\version.bat" />
+    <None Include="packages.config" />
+    <None Include="Scripts\jquery-2.1.1.min.map" />
     <None Include="VERSION" />
     <None Include="Properties\AppManifest.xml">
       <SubType>Designer</SubType>
