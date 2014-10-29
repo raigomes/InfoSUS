@@ -4,56 +4,37 @@
 
 document.addEventListener('deviceready', this.onDeviceReady, false);
 function onDeviceReady() {
-    $(document).ready(function () {                
+    $(document).ready(function () {
         $("#btn12").click(function () {//SUS
-            
+
         });
         $("#btn13").click(function () {//Telefones            
-            $("#phoneTable").find("tbody").empty().append(function () {
-                $.support.cors = true;
-                $.mobile.allowCrossDomainPages = true;
-                var path = window.location.pathname.replace('index.html', 'telefonesuteis.json');
-                alert(path);
-                
-                $.ajax(path, {
-                    type: "GET",
-                    dataType: "json",
-                    isLocal: true,
-                    success: function (data) {
-                        var answer = "";
-                        alert("entrou");
-                        console.log(data);
-                        data = $.parseJSON(data)
-                        $.each(data, function (key, val) {
-                            answer = "<td>" + val + "</td>";
-                        });
-                        alert(answer);
-                        return "<tr>" + answer + "</tr>";
-                    },
-                    error: function (msg) {
-                        alert("ERROR: " + msg.status + " " + msg.statusText);
-                    }
-                });
-                //$.getJSON('telefonesuteis.json', 
-                //    function (data) {
-                //        var answer = "";
-                //        alert("entrou");
-                //        $.each(data, function (key, val) {
-                //            answer = "<td>" + val + "</td>";
-                //        });
-                //        alert(answer);
-                //        return "<tr>" + answer + "</tr>";
-                //});
-                //var name = "<td>Servi&ccedil;o de Atendimento M&oacute;vel de Urg&ecirc;ncia</td>";
-                //var phone = "<td>192</td>";
-                //var description = "<td>Atendimento de Urg&ecirc;ncias M&eacute;dicas do SAMU</td>";
-                //var text = document.createElement("tr");
-                //text.innerHTML = name + phone + description;
+            $.support.cors = true;
+            $.mobile.allowCrossDomainPages = true;
+            var path = window.location.pathname.replace('index.html', 'File/telefonesutei.xml');
+            //alert(path);               
+            $.ajax(path, {
+                type: "GET",
+                dataType: "xml",
+                isLocal: true,
+                async: false,
+                complete: function () {
 
-                //alert(text.innerHTML);
-
-                //return text;
-            });
+                },
+                success: function (responseXML) {
+                    var answer = "";
+                    $.each($(responseXML).find("EntityRow"), function (key, val) {
+                        answer = answer + "<tr>"
+                            + "<td>" + $(val).find("Name").text() + "</td>"
+                            + "<td>" + $(val).find("PhoneNumber").text() + "</td>"
+                            + "<td>" + $(val).find("Description").text() + "</td></tr>";
+                    });                    
+                    $("#phoneTable").find("tbody").empty().append(answer);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert("ERROR: " + jqXHR.status + " " + jqXHR.statusText);
+                }
+            });            
         });
         $("#btn21").click(function () {
 
