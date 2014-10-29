@@ -1,0 +1,27 @@
+[
+  {
+    "Nome":"Serviço de Atendimento Móvel de Urgência",
+    "Telefone":192,
+    "Descrição":"Atendimento de Urgências Médicas do SAMU"
+  },
+  {
+    "Nome":"Corpo de Bombeiros",
+    "Telefone":193,
+    "Descrição":"Socorre vítimas de acidentes, faz resgates, salvamentos, atende a emergências médicas e auxilia em caso de incêndios."
+  },
+  {
+    "Nome":"Salvamar",
+    "Telefone":185,
+    "Descrição":"Resgate de pessoas em perigo no mar."
+  },
+  {
+    "Nome":"Disque Saúde",
+    "Telefone":136,
+    "Descrição":"Serviço de ouvidoria do SUS que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. "
+  },
+  {
+    "Nome":"Centro de Atendimento à Mulher",
+    "Telefone":180,
+    "Descrição":"Serviço de ouvidoria que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. "
+  }
+]

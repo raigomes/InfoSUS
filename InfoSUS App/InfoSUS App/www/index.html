@@ -25,7 +25,14 @@ under the License.
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
     <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
     <!-- JQuery CSS -->
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+    <link type="text/css" rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+    <style>
+        .page {
+            background-image: url('img/símbolo do sus.png');
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
     <!-- Apache Cordova Javascript -->
     <script type="text/javascript" src="cordova.js"></script>
     <!-- App Javascript -->
@@ -34,42 +41,119 @@ under the License.
     <script type="text/javascript"
             src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0">
     </script>
-    <!-- Microsoft CDN from JQuery -->
+    <!--JQuery Mobile -->
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
     <title>InfoSUS App</title>
 </head>
 <body>
-    <div style="background-image: url('img/símbolo do sus.png'); background-position:center; background-size:auto">
-        <div data-role="page" id="mainpage">
-            <div data-role="header">
-                <h1>InfoSUS App</h1>
+    <div data-role="page" id="mainpage" class="page">
+        <div data-role="header">
+            <h1>InfoSUS App</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div data-role="controlgroup" data-type="vertical">
+                <a href="#unidades" id="btn11" class="ui-btn">Unidades de Saúde</a><br>
+                <a href="#sus" id="btn12" class="ui-btn">Conheça o SUS</a> <br>
+                <a href="#phones" id="btn13" class="ui-btn">Telefones úteis</a> <br>
+                <a href="#aboutPopup" data-rel="popup" id="btn14" class="ui-btn">Sobre</a> <br>
             </div>
-            <div data-role="main" class="ui-content">
-                <div data-role="controlgroup" data-type="vertical">
-                    <a href="#unidades" id="btn11" class="ui-btn">Unidades de Saúde</a><br>
-                    <a href="#content" id="btn12" class="ui-btn">Conheça o SUS</a> <br>
-                    <a href="#content" id="btn13" class="ui-btn">Telefones úteis</a> <br>
-                    <a href="#content" id="btn14" class="ui-btn">Sobre</a> <br>
+            <div data-role="popup" id="aboutPopup" class="ui-content">
+                <div data-role="header">
+                    <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back"><br /></a>
+                    <h1>Sobre</h1>
+                </div>
+                <p>
+                    O <b>InfoSUS App</b> é fruto do Trabalho de Conclusão de Curso do acadêmico Raí Gomes Mesquita
+                    para obtenção do título de bacharel em Ciência da Computação na Universidade Federal Fluminense.
+                </p>
+                <p>
+                    A idéia começou com a sede do aluno em estudar sobre saúde pública para entender como a área
+                    de TI pode atuar na resolução dos problemas referentes ao Sistema Único de Saúde.
+                </p>
+                <p>
+                    Determinante para a criação desse aplicativo foram a participação no programa estágio e vivência em saúde pública chamado Ver-SUS
+                    em Niterói e a ajuda de amigos e colaboradores da área de saúde, além do meu orientador o Prof. José Raphael Bokehi.
+                </p>
+                <br />
+                <p>Caso queira saber mais ou mandar sugestões, favor entrar em contato em <b>raigomes2@hotmail.com</b></p>
+                <div data-role="footer">
+                    <h1>Sobre</h1>
                 </div>
             </div>
         </div>
-        <div data-role="page" id="unidades">
-            <a href="#" id="backbutton" class="ui-btn ui-btn-inline ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a> <br>
-            <div data-role="main" class="ui-content">
-                <div data-role="controlgroup" data-type="vertical">
-                    <a href="#content" id="btn21" class="ui-btn">Unidades mais próximas</a> <br>
-                    <a href="#content" id="btn22" class="ui-btn">Postos de Saúde</a> <br>
-                    <a href="#content" id="btn23" class="ui-btn">Medico de Família</a> <br>
-                    <a href="#content" id="btn24" class="ui-btn">Policlínicas</a> <br>
-                    <a href="#content" id="btn25" class="ui-btn">Urgência / Emergência</a> <br>
-                    <a href="#content" id="btn26" class="ui-btn">Hospitais</a> <br>
-                    <a href="#content" id="btn27" class="ui-btn">Saúde Mental</a> <br>
-                </div>
+    </div>
+    <div data-role="page" id="unidades" class="page">
+        <div data-role="header">
+            <a href="#" id="backbutton" class="ui-btn ui-btn-inline ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
+            <h1>Unidades</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div data-role="controlgroup" data-type="vertical">
+                <a href="#map" id="btn21" class="ui-btn">Unidades mais próximas</a> <br>
+                <a href="#content" id="btn22" class="ui-btn">Postos de Saúde</a> <br>
+                <a href="#content" id="btn23" class="ui-btn">Medico de Família</a> <br>
+                <a href="#content" id="btn24" class="ui-btn">Policlínicas</a> <br>
+                <a href="#content" id="btn25" class="ui-btn">Urgência / Emergência</a> <br>
+                <a href="#content" id="btn26" class="ui-btn">Hospitais</a> <br>
+                <a href="#content" id="btn27" class="ui-btn">Saúde Mental</a> <br>
             </div>
         </div>
-        <div data-role="page" id="content">
-            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a> <br>
+    </div>
+    <div data-role="page" id="SUS" class="page">
+        <div data-role="header">
+            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
+        </div>
+    </div>
+    <div data-role="page" id="phones">
+        <div data-role="header">
+            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>            
+        </div>
+        <table data-role="table" data-mode="columntoggle" id="phoneTable" class="ui-responsive">
+            <thead>
+                <tr>
+                    <th>Nome:</th>
+                    <th data-priority="1">Telefone:</th>
+                    <th data-priority="2">Descrição:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Serviço de Atendimento Móvel de Urgência</td>
+                    <td>192</td>
+                    <td>Atendimento de Urgências Médicas do SAMU</td>
+                </tr>
+                <tr>
+                    <td>Corpo de Bombeiros</td>
+                    <td>193</td>
+                    <td>Socorre vítimas de acidentes, faz resgates, salvamentos, atende a emergências médicas e auxilia em caso de incêndios.</td>
+                </tr>
+                <tr>
+                    <td>Salvamar</td>
+                    <td>185</td>
+                    <td>Resgate de pessoas em perigo no mar.</td>
+                </tr>
+                <tr>
+                    <td>Disque Saúde</td>
+                    <td>136</td>
+                    <td>Serviço de ouvidoria do SUS que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. </td>
+                </tr>
+                <tr>
+                    <td>Centro de Atendimento à Mulher</td>
+                    <td>180</td>
+                    <td>Serviço de ouvidoria que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div data-role="page" id="map" class="page">
+        <div data-role="header">
+            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
+        </div>
+    </div>
+    <div data-role="page" id="content" class="page">
+        <div data-role="header">
+            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
         </div>
     </div>
 </body>
