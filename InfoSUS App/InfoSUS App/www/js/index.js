@@ -112,23 +112,27 @@ function getDataFromXML(fileName, healthType) {
 }
 
 function getClinics(responseXML, healthType) {    
-    var answer = "<div data-role='collapsibleset'>";
+    var answer = ""//"<div data-role='collapsible-set'>";
+    $("#contentBody").empty();
     $.each($(responseXML).find("Entity"), function (key, val) {
-        //alert($(val).find("Health_Type").text()=="Hospital");
+        //alert("entrou");
         if ($(val).find("Health_Type").text() == healthType) {
-            answer = answer + "<div data-role='collapsible'>"
-                + "<h3>" + $(val).find("Name").text().toUpperCase() + "</h3>"
-                + "<p><b>Tipo: </b>" + $(val).find("Health_Type").text() + "</p>"
-                + "<p><b>Endere&ccedil;o: </b>" + $(val).find("Address").text() + "</p>"
-                + "<p><b>Bairro: </b>" + $(val).find("Location").text() + "</p>"
-                + "<p><b>Cidade: </b>" + $(val).find("City").text() + "</p>" +
-                "</div>";
+            var id = $(val).find("ID");            
+            $("#contentBody").append("<div data-role='collapsible' id='clinic" + id.text() + "'></div>");            
+            $("#clinic" + id.text()).append("<h3>" + $(val).find("Name").text().toUpperCase() + "</h3>");
+            $("#clinic" + id.text()).append("<p><b>Tipo: </b>" + $(val).find("Health_Type").text() + "</p>");
+            $("#clinic" + id.text()).append("<p><b>Endere&ccedil;o: </b>" + $(val).find("Address").text() + "</p>");
+            $("#clinic" + id.text()).append("<p><b>Bairro: </b>" + $(val).find("Location").text() + "</p>");
+            $("#clinic" + id.text()).append("<p><b>Cidade: </b>" + $(val).find("City").text() + "</p>");
+            $("#clinic" + id.text()).append("<a href='#map' onclick='showClinic("+$(val).find("Latitude")+", "+$(val).find("Longitude")+");'>Veja no mapa</a>");
+            //alert($("#contentBody").html());
         }
     });
-    answer = answer + "</div>";
-    $("#content").find("h1").empty().append(healthType);    
-    $("#contentBody").empty();
-    $(answer).appendTo("#contentBody");
+    //answer = answer + "</div>";
+    $("#content").find("h1").empty().append(healthType);
+    $("#contentBody").collapsibleset('refresh');
+    //$(answer).appendTo("#contentBody");
+    
 }
 
 function GetMap() {

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Entities>
 <Entity>
+<ID>1</ID>
 <Name>HOSPITAL MUNICIPAL CARLOS TORTELLY  </Name>
 <Health_Type>Hospital</Health_Type>
 <Address>Rua Des. Athayde Parreira, 266 - Centro</Address>
@@ -14,7 +15,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>HOSPITAL GETÚLIO VARGAS</Name>
+<ID>2</ID>
+<Name>HOSPITAL GETÚLIO VARGAS FILHO</Name>
 <Health_Type>Hospital</Health_Type>
 <Address>Rua Teixeira de Freitas s/nº - Fonseca</Address>
 <Location>Fonseca</Location>
@@ -27,6 +29,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>3</ID>
 <Name>HOSPITAL ORÊNCIO DE FREITAS</Name>
 <Health_Type>Hospital</Health_Type>
 <Address>Av.Machado s/nº - Barreto</Address>
@@ -40,6 +43,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>4</ID>
 <Name>HOSPITAL PSIQUIÁTRICO JURUJUBA</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>Av.Quintino Bocaiúva, s/nº - Charitas</Address>
@@ -53,6 +57,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>5</ID>
 <Name>MATERNIDADE ALZIRA REIS</Name>
 <Health_Type>Hospital</Health_Type>
 <Address>Av.Carlos Ermelindo Marins s/nº - Jurujuba</Address>
@@ -66,7 +71,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA REGIONAL DR. CARLOS ANTÔNIO DA SILVA</Name>
+<ID>6</ID>
+<Name>Policlinica REGIONAL DR. CARLOS ANTÔNIO DA SILVA</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Rua Jansen de Mello s/nº - São Lourenço</Address>
 <Location>São Lourenço</Location>
@@ -79,7 +85,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA REGIONAL DR. SÉRGIO AROUCA</Name>
+<ID>7</ID>
+<Name>Policlinica REGIONAL DR. SÉRGIO AROUCA</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Praça Vital Brazil s/nº - Santa Rosa</Address>
 <Location>Santa Rosa</Location>
@@ -92,7 +99,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA REGIONAL DR. GUILHERME TAYLOR MARCH</Name>
+<ID>8</ID>
+<Name>Policlinica REGIONAL DR. GUILHERME TAYLOR MARCH</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Rua Desembargador Lima Castro, 238 - Fonseca</Address>
 <Location>Fonseca</Location>
@@ -105,7 +113,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA REGIONAL DO LARGO DA BATALHA DR. FRANCISCO DA CRUZ NUNES</Name>
+<ID>9</ID>
+<Name>Policlinica REGIONAL DO LARGO DA BATALHA DR. FRANCISCO DA CRUZ NUNES</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Rua Ver.Armando Ferreira, 30 - Largo da Batalha</Address>
 <Location>Largo da Batalha</Location>
@@ -118,7 +127,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA REGIONAL DE ITAIPU ASSISTENTE SOCIAL MARIA APARECIDA DA COSTA</Name>
+<ID>10</ID>
+<Name>Policlinica REGIONAL DE ITAIPU ASSISTENTE SOCIAL MARIA APARECIDA DA COSTA</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Est.Engenho do Mato s/nº - Itaipu</Address>
 <Location>Itaipu</Location>
@@ -131,7 +141,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA REGIONAL DA ENGENHOCA DR. RENATO SILVA</Name>
+<ID>11</ID>
+<Name>Policlinica REGIONAL DA ENGENHOCA DR. RENATO SILVA</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Avenida João Brasil, s/nº - Engenhoca</Address>
 <Location>Engenhoca</Location>
@@ -144,7 +155,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA COMUNITÁRIA ILHA DA CONCEIÇÃO </Name>
+<ID>12</ID>
+<Name>Policlinica COMUNITÁRIA ILHA DA CONCEIÇÃO </Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Rua Jornalista Sardo Filho, 196 - Ilha da Conceição</Address>
 <Location>Ilha da Conceição</Location>
@@ -157,7 +169,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA COMUNITÁRIA DE JURUJUBA</Name>
+<ID>13</ID>
+<Name>Policlinica COMUNITÁRIA DE JURUJUBA</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Av. Carlos Ermelindo Marins s/nº - Jurujuba</Address>
 <Location>Jurujuba</Location>
@@ -170,7 +183,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA COMUNITÁRIA DO CANTAGALO PROFESSOR BARROS TERRA</Name>
+<ID>14</ID>
+<Name>Policlinica COMUNITÁRIA DO CANTAGALO PROFESSOR BARROS TERRA</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Rua Alcebíades Pinto, s/nº - Cantagalo</Address>
 <Location>Cantagalo</Location>
@@ -183,7 +197,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA DE ESPECIALIDADES EM ATENÇÃO A SAÚDE DA MULHER MALÚ SAMPAIO</Name>
+<ID>15</ID>
+<Name>Policlinica DE ESPECIALIDADES EM ATENÇÃO A SAÚDE DA MULHER MALÚ SAMPAIO</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Rua Visconde de Uruguai, 531 - Centro</Address>
 <Location>Centro</Location>
@@ -196,7 +211,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>POLICLÍNICA DE ESPECIALIDADES DR. SYLVIO PICANÇO</Name>
+<ID>16</ID>
+<Name>Policlinica DE ESPECIALIDADES DR. SYLVIO PICANÇO</Name>
 <Health_Type>Policlinica</Health_Type>
 <Address>Av. Amaral Peixoto, 169 - Centro</Address>
 <Location>Centro</Location>
@@ -209,6 +225,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>17</ID>
 <Name>UNIDADE DE URGÊNCIA MÁRIO MONTEIRO</Name>
 <Health_Type>Urgencia e Emergencia</Health_Type>
 <Address>Estrada Francisco da Cruz Nunes s/nº - Itaipú</Address>
@@ -222,6 +239,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>18</ID>
 <Name>UPA 24h NITEROÍ</Name>
 <Health_Type>Urgencia e Emergencia</Health_Type>
 <Address>Rua Sá Barreto nº 107, Fonseca.</Address>
@@ -235,6 +253,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>19</ID>
 <Name>SPA 1 - SERVIÇO DE PRONTO ATENDIMENTO DO LARGO DA BATALHA</Name>
 <Health_Type>Urgencia e Emergencia</Health_Type>
 <Address>Rua Vereador Armando Ferreira, 30 - Largo da Batalha</Address>
@@ -248,6 +267,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>20</ID>
 <Name>SPA 2 - SERVIÇO DE PRONTO ATENDIMENTO DA ENGENHOCA</Name>
 <Health_Type>Urgencia e Emergencia</Health_Type>
 <Address>Avenida Professor João Brasil, S/Nº - Engenhoca</Address>
@@ -261,6 +281,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>21</ID>
 <Name>HOSPITAL ESTADUAL AZEVEDO LIMA</Name>
 <Health_Type>Urgencia e Emergencia</Health_Type>
 <Address>Rua Teixeira Freitas, 30 - Fonseca</Address>
@@ -274,6 +295,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>22</ID>
 <Name>JESUS MONTAÑEZ - PMF PALÁCIO</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua 11 de Agosto, nº 4 - Ingá</Address>
@@ -287,6 +309,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>23</ID>
 <Name>CÉLIA SANCHEZ - PMF ILHA DA CONCEIÇÃO</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Jornalista Sardo Filho, 196 - Ilha da Conceição</Address>
@@ -300,6 +323,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>24</ID>
 <Name>CAMILO CIENFUEGOS - PMF VIRADOURO</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Mario Viana, 790 - Viradouro</Address>
@@ -313,6 +337,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>25</ID>
 <Name>JOSÉ ANTONIO ECHEVERRIA BIANCHI - PMF SOUZA SOARES</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Lions Club, 37 - Santa Rosa</Address>
@@ -326,6 +351,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>26</ID>
 <Name>CARLOS J. FINLAY - PMF VITAL BRAZIL</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua João da Lossi - Trav. F nº 8 - Vital Brasil</Address>
@@ -339,6 +365,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>27</ID>
 <Name>FRANK PAÍS GARCIA - PMF CAVALÃO</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Alameda Paris s/nº - São Francisco</Address>
@@ -352,6 +379,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>28</ID>
 <Name>ABEL SANTAMARIA - PMF PREVENTÓRIO I</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Travessa Carmita s/nº - Charitas</Address>
@@ -365,6 +393,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>29</ID>
 <Name>CALIXTO GARCIA - PMF PREVENTÓRIO II</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Av.Quintino Bocaiúva s/nº - Charitas</Address>
@@ -378,6 +407,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>30</ID>
 <Name>MÁRIO MUNHOZ MONROE - PMF JURUJUBA (Carcarejo)</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Av.Carlos Ermelindo Marins s/nº - Jurujuba </Address>
@@ -391,6 +421,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>31</ID>
 <Name>JOSÉ SUÁREZ BLANCO - PMF JONATHAS BOTELHO</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Trav.Jonathas Botelho, 133 - Cubango </Address>
@@ -404,6 +435,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>32</ID>
 <Name>PMF LAGOINHA </Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Av.Colônia s/nº - Cubango</Address>
@@ -417,6 +449,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>33</ID>
 <Name>JÚLIO DIAZ GONZALEZ - PMF LEOPOLDINA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua George Allan s/nº - Largo dos Barradas - Barreto </Address>
@@ -430,6 +463,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>34</ID>
 <Name>CARLOS RAFAEL RODRIGUES - PMF MARÍTIMOS</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Av. Machado, s/nº - Barreto </Address>
@@ -443,6 +477,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>35</ID>
 <Name>JORGE LUIZ CAMACHO RODRIGUES - PMF MARUÍ</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Monsenhor Raeder, 151 - Barreto </Address>
@@ -456,6 +491,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>36</ID>
 <Name>ANTÔNIO LÔPEZ - PMF NOVA BRASÍLIA </Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Professor João Brasil, 1726 - Engenhoca</Address>
@@ -469,6 +505,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>37</ID>
 <Name>WILMA ESPIN - PMF VILA IPIRANGA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Tenente Osório, s/nº  Fonseca</Address>
@@ -482,6 +519,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>38</ID>
 <Name>HAIDÉE SANTAMARIA I - PMF CANTAGALO </Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Estrada Francisco Cruz Nunes s/nº - Cantagalo </Address>
@@ -495,6 +533,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>39</ID>
 <Name>SALVADOR ALLENDE - PMF ATALAIA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Padre José Euger - s/nº - Atalaia</Address>
@@ -508,6 +547,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>40</ID>
 <Name>DR. WILSON DE OLIVEIRA - PMF ITITIOCA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Vila Costa Monteiro s/nº - Ititioca</Address>
@@ -521,6 +561,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>41</ID>
 <Name>WILLIAN SOLLER I - PMF ENGENHO DO MATO </Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Estrada Irene Lopes Sodré s/nº - Engenho do Mato </Address>
@@ -534,6 +575,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>42</ID>
 <Name>ERNESTO CHE GUEVARA I - PMF CAFUBÁ I</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Av.Raúl de Oliveira Rodrigues, S/Nº - Cafubá</Address>
@@ -547,6 +589,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>43</ID>
 <Name>ERNESTO CHE GUEVARA II - PMF CAFUBÁ II</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Vereador Luiz Erthal, Lt. 05, Qd. 69 - Cafubá </Address>
@@ -560,6 +603,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>44</ID>
 <Name>ALBERTO RICARDO HATIN - PMF CAFUBÁ III</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Manoel Pacheco de Carvalho 107 - Piratininga</Address>
@@ -573,6 +617,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>45</ID>
 <Name>CTE. MANOEL PIÑEIRO LOZADA - PMF MARAVISTA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Astor da Costa Menezes, S/Nº - Maravista</Address>
@@ -586,6 +631,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>46</ID>
 <Name>PMF COLONIA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Praia de Itaipu - Colônia dos Pescadores </Address>
@@ -599,6 +645,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>47</ID>
 <Name>DR. OMAR MARINHO VIEIRA - PMF ALARICO DE SOUZA</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Estrada Alarico de Souza, s/nº - Santa Rosa</Address>
@@ -612,6 +659,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>48</ID>
 <Name>RAUL CARLOS PARETO JR. - PMF BERNARDINO</Name>
 <Health_Type>Medico de Familia</Health_Type>
 <Address>Rua Sá Barreto, nº 107 - Fonseca - ao lado da UPA</Address>
@@ -625,6 +673,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>49</ID>
 <Name>UBS CENTRO DR. EDUARDO IMBASSAY </Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Rua Visconde de Uruguai, 531 - Centro</Address>
@@ -638,6 +687,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>50</ID>
 <Name>UBS MORRO DO ESTADO DR. MARIO PARDAL </Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Rua Araujo Pimenta s/nº </Address>
@@ -651,6 +701,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>51</ID>
 <Name>UBS SANTA BÁRBARA ADELINO DE MENDONÇA E SILVA </Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
@@ -664,6 +715,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>52</ID>
 <Name>UBS – BARRETO – Dr. João da Silva Vizella </Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Rua Luiz Palmier, 726 - Barreto</Address>
@@ -677,6 +729,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>53</ID>
 <Name>UBS – BALDEADOR DEPUTADO JOSÉ SALLY  </Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Lot.Bento Pestana s/nº - Morro do Castro</Address>
@@ -690,6 +743,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>54</ID>
 <Name>UBS PIRATININGA DOM LUIZ ORIONE</Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Av. dos Pescadores - Lotes 2,3 e 4 - Piratininga</Address>
@@ -703,6 +757,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>55</ID>
 <Name>UBS – VARZEA DAS MOÇAS DR. TOBIAS TOSTES MACHADO </Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Estrada Velha de Maricá s/nº - Várzea das Moças</Address>
@@ -716,7 +771,8 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
-<Name>UBS – ENGENHOCA – Policlínica Regional Norte II Dr.Renato Silva</Name>
+<ID>56</ID>
+<Name>UBS – ENGENHOCA – Policlinica Regional Norte II Dr.Renato Silva</Name>
 <Health_Type>Posto de Saude</Health_Type>
 <Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
 <Location>Engenhoca</Location>
@@ -729,6 +785,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>57</ID>
 <Name>CAPS Casa do Largo</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>R. Nilo de Freitas, 41.Lgo. Batalha</Address>
@@ -742,6 +799,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>58</ID>
 <Name>CAPS Herbert de Souza</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>R. Marques de Olinda, 104. Centro</Address>
@@ -755,6 +813,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>59</ID>
 <Name>CAPS AD Alameda</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>Alameda São Boaventura, 129. Fonseca</Address>
@@ -768,6 +827,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>60</ID>
 <Name>CAPSi Monteiro Lobato</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>R. Tiradentes, 18. Ingá</Address>
@@ -781,6 +841,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>61</ID>
 <Name>Amb. Engenhoca</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>R. Pça Vital Brasil s/ no.Vital Brasil</Address>
@@ -794,6 +855,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>62</ID>
 <Name>Amb. Carlos Antônio da Silva</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>Av. Jansen de Melo s/ no.Centro</Address>
@@ -807,6 +869,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>63</ID>
 <Name>Amb. Jurujuba</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>Av. Quintino bocaiúva s/ no.Charitas</Address>
@@ -820,6 +883,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>64</ID>
 <Name>Amb. Pendotiba</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>R. Miguel Pereira Sarmento, 3/204 – Pendotiba</Address>
@@ -833,6 +897,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>65</ID>
 <Name>R. Terapêutica Pendotiba</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>Est. Caetano Monteiro, 253 – Pendotiba</Address>
@@ -846,6 +911,7 @@
 <Longitude></Longitude>
 </Entity>
 <Entity>
+<ID>66</ID>
 <Name>R. Terapêutica Fonseca</Name>
 <Health_Type>Saude Mental</Health_Type>
 <Address>R. Magnólia Brasil, 55 casa 1 – Fonseca</Address>
