@@ -25,7 +25,8 @@ under the License.
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
     <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
     <!-- JQuery CSS -->
-    <link type="text/css" rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+    <!--<link type="text/css" rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />-->
+    <link type="text/css" rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
     <style>
         .page {
             background-image: url('img/símbolo do sus.png');
@@ -38,12 +39,12 @@ under the License.
     <!-- App Javascript -->
     <script type="text/javascript" src="js/index.js"></script>
     <!-- Bing Maps -->
-    <script type="text/javascript"
-            src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0">
-    </script>
+    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>    
     <!--JQuery Mobile -->
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>    
     <title>InfoSUS App</title>
 </head>
 <body>
@@ -100,14 +101,26 @@ under the License.
             </div>
         </div>
     </div>
-    <div data-role="page" id="SUS" class="page">
+    <div data-role="page" id="sus" class="page">
         <div data-role="header">
             <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
+            <h1>SUS</h1>
         </div>
-    </div>
+        <div data-role="main" class="ui-content">
+            <div data-role="controlgroup" data-type="vertical">
+                <a href="#content" id="btn31" class="ui-btn ui-shadow ui-corner-all">O que é o SUS?</a> <br>
+                <a href="#content" id="btn32" class="ui-btn ui-shadow ui-corner-all">A Estrutura</a> <br>
+                <a href="#content" id="btn33" class="ui-btn ui-shadow ui-corner-all">Atenção Básica de Saúde</a> <br>
+                <a href="#content" id="btn34" class="ui-btn ui-shadow ui-corner-all">Média Complexidade</a> <br>
+                <a href="#content" id="btn35" class="ui-btn ui-shadow ui-corner-all">Alta Complexidade</a> <br>
+                <a href="#content" id="btn36" class="ui-btn ui-shadow ui-corner-all">Urgência / Emergência</a> <br>
+                <a href="#content" id="btn37" class="ui-btn ui-shadow ui-corner-all">Saúde Mental</a> <br>
+            </div>            
+        </div>        
+    </div>    
     <div data-role="page" id="phones">
         <div data-role="header">
-            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>            
+            <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
         </div>
         <table data-role="table" data-mode="columntoggle" id="phoneTable" class="ui-responsive">
             <thead>
@@ -127,22 +140,7 @@ under the License.
                     <td>Corpo de Bombeiros</td>
                     <td>193</td>
                     <td>Socorre vítimas de acidentes, faz resgates, salvamentos, atende a emergências médicas e auxilia em caso de incêndios.</td>
-                </tr>
-                <tr>
-                    <td>Salvamar</td>
-                    <td>185</td>
-                    <td>Resgate de pessoas em perigo no mar.</td>
-                </tr>
-                <tr>
-                    <td>Disque Saúde</td>
-                    <td>136</td>
-                    <td>Serviço de ouvidoria do SUS que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. </td>
-                </tr>
-                <tr>
-                    <td>Centro de Atendimento à Mulher</td>
-                    <td>180</td>
-                    <td>Serviço de ouvidoria que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. </td>
-                </tr>
+                </tr>                
             </tbody>
         </table>
     </div>
@@ -150,11 +148,14 @@ under the License.
         <div data-role="header">
             <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
         </div>
+        <div data-role="main" class="ui-content" id="divMap"></div>
     </div>
     <div data-role="page" id="content" class="page">
         <div data-role="header">
             <a href="#" id="backbutton" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Voltar</a>
+            <h1>Content</h1>
         </div>
+        <div id="contentBody"></div>        
     </div>
 </body>
 </html>

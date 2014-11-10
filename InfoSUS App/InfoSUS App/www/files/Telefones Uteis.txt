@@ -1,6 +1,0 @@
-Nome	Telefone	Descrição
-Serviço de Atendimento Móvel de Urgência	192	Atendimento de Urgências Médicas do SAMU
-Corpo de Bombeiros	193	Socorre vítimas de acidentes, faz resgates, salvamentos, atende a emergências médicas e auxilia em caso de incêndios.
-Salvamar	185	Resgate de pessoas em perigo no mar.
-Disque Saúde	136	Serviço de ouvidoria do SUS que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. 
-Centro de Atendimento à Mulher	180	Serviço de ouvidoria que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. 

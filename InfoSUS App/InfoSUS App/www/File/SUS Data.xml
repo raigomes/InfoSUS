@@ -1,0 +1,861 @@
+<?xml version="1.0"?>
+<Entities>
+<Entity>
+<Name>HOSPITAL MUNICIPAL CARLOS TORTELLY  </Name>
+<Health_Type>Hospital</Health_Type>
+<Address>Rua Des. Athayde Parreira, 266 - Centro</Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2729-9300; 2729-9343; 2729-9340 </PhoneNumbers>
+<Email>direcao.hmct@saude.niteroi.rj.gov.br; admin.hmct@saude.niteroi.rj.gov.br</Email>
+<Description>Emergência 24 horas. </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>HOSPITAL GETÚLIO VARGAS</Name>
+<Health_Type>Hospital</Health_Type>
+<Address>Rua Teixeira de Freitas s/nº - Fonseca</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2627-1535; 2627-1525; 2627-1543</PhoneNumbers>
+<Email>direcao.hgfv@saude.niteroi.rj.gov.br; admin.hgvf@saude.niteroi.rj.gov.br</Email>
+<Description>Emergência pediátrica, porta aberta 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>HOSPITAL ORÊNCIO DE FREITAS</Name>
+<Health_Type>Hospital</Health_Type>
+<Address>Av.Machado s/nº - Barreto</Address>
+<Location>Barreto</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2620-5157; 2620-3434</PhoneNumbers>
+<Email>direcao.hof@saude.niteroi.rj.gov.br; admin.hof@saude.niteroi.rj.gov.br</Email>
+<Description>Emergência 24 horas para atendimento a cirurgias abdominais. Conta com outros serviços de cirurgias como ginecológicas, urológicas, vasculares e com vídeolaparoscopia em caráter eletivo. </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>HOSPITAL PSIQUIÁTRICO JURUJUBA</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>Av.Quintino Bocaiúva, s/nº - Charitas</Address>
+<Location>Charitas</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2714-8856; 2710-0663; 2610-7678</PhoneNumbers>
+<Email>direcao.hpj@saude.niteroi.rj.gov.br; admin.hpj@saude.niteroi.rj.gov.br</Email>
+<Description>Emergência 24 horas para o atendimento psiquiátrico do município.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>MATERNIDADE ALZIRA REIS</Name>
+<Health_Type>Hospital</Health_Type>
+<Address>Av.Carlos Ermelindo Marins s/nº - Jurujuba</Address>
+<Location>Jurujuba</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3611-0107; 3701-1846</PhoneNumbers>
+<Email>direcao.mar@saude.niteroi.rj.gov.br; admin.mar@saude.niteroi.rj.gov.br</Email>
+<Description>Referência para gestantes de baixo risco no município. Emergência 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA REGIONAL DR. CARLOS ANTÔNIO DA SILVA</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Rua Jansen de Mello s/nº - São Lourenço</Address>
+<Location>São Lourenço</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2717-1426; 2719-0050</PhoneNumbers>
+<Email>prcas@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Dermatologia, Neurologia adulto e infantil, Núcleo de Saude Mental, Ecocardiograma e Eletrocardiograma, Alergista, Psicologia, Endodontia, Assistência Social, Periodontia, Hepatologia, Fisioterapia, Farmácia, Terapeuta Ocupacional, Psiquiatria, Infectologia, Fonoaudiologia, Vacinação básica, Teste do pezinho e PPD e orelhinha, Teste de Investigação de gravidez (TIG). </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA REGIONAL DR. SÉRGIO AROUCA</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Praça Vital Brazil s/nº - Santa Rosa</Address>
+<Location>Santa Rosa</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2610-8975; 2711-2366; 2710-9176</PhoneNumbers>
+<Email>prsa@saude.niteroi.rj.gov; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Dermatologia, Neurologia, Alergista, Psicologia, Assistência Social, Reumatologia, Fisioterapia, Cardiologia, Terapeuta Ocupacional, Fonoaudiologia, Núcleo de Saude Mental, Infectologia, Farmácia, Vacinas básicas, Teste de Investigação de Gravidez (TIG), Teste do Pezinho e Turbeculose (TB).</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA REGIONAL DR. GUILHERME TAYLOR MARCH</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Rua Desembargador Lima Castro, 238 - Fonseca</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2626-4170</PhoneNumbers>
+<Email>prgmarch@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Dermatologia, Neurologia, Psicologia, Assistência Social, Homeopatia, Endocrinologia, Pneumologista, Fisioterapia, Terapia Ocupacional, Fonoaudiologia, Cardiologista, Farmácia, Eletrocardiograma, Exame do pezinho e triagem comportamental, Vacinas básicas, grupos:  idosos, mamãe e bebê, Planejamento Familiar, Hipertensão e Diabetes, Gestante e Teste de Investigação de Gravidez (TIG), Hanseníase, Tuberculose, Sisvon, Urologista, Teste do Olhinho e Orelhinha, Neurologista (só adulto). </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA REGIONAL DO LARGO DA BATALHA DR. FRANCISCO DA CRUZ NUNES</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Rua Ver.Armando Ferreira, 30 - Largo da Batalha</Address>
+<Location>Largo da Batalha</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-3633; 2710-1053; 2710-7100</PhoneNumbers>
+<Email>prlbatalha@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Endocrinologia, Nutrição, Dermatologia, Alergista, Fonoaudiologia ,Fisioterapia, Assistência Social, Infectologia, Geriatria, Neurologia, Cardiologista, RX, Coleta domiciliar , Teste do Pezinho e Orelhinha, Teste de Investigação de Gravidez (TIG), Programa de Tabagismo, Saúde da mulher, Hiperdia, Urologista.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA REGIONAL DE ITAIPU ASSISTENTE SOCIAL MARIA APARECIDA DA COSTA</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Est.Engenho do Mato s/nº - Itaipu</Address>
+<Location>Itaipu</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2609-6368; 2709-1579</PhoneNumbers>
+<Email>pritaipu@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Endocrinologia, Dermatologia, Nutrição, Psicologia, Fonoaudiologia, Fisioterapia, Assistência Social, Neurologia, Fisioterapia, Ultrassonografia, Eletrocardiograma, Todos os testes comportamentais, Teste do Pezinho e Reflexo Vermelho, Terapia Ocupacional, Homeopatia, Ambulatório de feridas, Saúde do idoso, Hipertensão e Diabetes, Acupuntura , Teste de Investigação de Gravidez (TIG), Geriatria, Ortopedia, Urologia, Grupo de Hipertensão e Diabetes, Saúde da Mulher. </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA REGIONAL DA ENGENHOCA DR. RENATO SILVA</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Avenida João Brasil, s/nº - Engenhoca</Address>
+<Location>Engenhoca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2628-8047; 3603-8874</PhoneNumbers>
+<Email>prengenhoca@saude.niteroi.rj.gov.br; </Email>
+<Description>Odontologia, Endocrinologia, Nutrição, Dermatologia, Alergista, Fonoaudiologia, Fisioterapia, Assistência Social, Infectologia, Ortopedia, Geriatria, Neurologia, Cardiologista, Teste do Pezinho e Orelhinha, Urologista, Psicologia, Hanseníase, DST, Hiperdia e Tuberculose. </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA COMUNITÁRIA ILHA DA CONCEIÇÃO </Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Rua Jornalista Sardo Filho, 196 - Ilha da Conceição</Address>
+<Location>Ilha da Conceição</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2620-6671; 2620-5333</PhoneNumbers>
+<Email>pcilha@saude.niteroi.rj.gov.br; </Email>
+<Description>Odontologia, Nutrição, Cardiologista, Endocrinologia, Fonoaudiologia, Neurologia, Vacinas básicas, Teste do Pezinho , Eletrocardiograma, Farmácia, Teste de Investigação de Gravidez (TIG), Psicologia.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA COMUNITÁRIA DE JURUJUBA</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Av. Carlos Ermelindo Marins s/nº - Jurujuba</Address>
+<Location>Jurujuba</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2704-9638; 2704-9668</PhoneNumbers>
+<Email>pcjurujuba@saude.niteroi.rj.gov.br; </Email>
+<Description>Odontologia, Nutrição, Cardiologia, Endocrinologia, Dermatologia, Psicologia, Neurologia, Alergista, Reumatologia, Fisioterapia, Vacinas Básicas, Exame do Pezinho, Eletrocardiograma, RX Dentário, BCG, Terapia Ocupacional, Fonoaudiologia.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA COMUNITÁRIA DO CANTAGALO PROFESSOR BARROS TERRA</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Rua Alcebíades Pinto, s/nº - Cantagalo</Address>
+<Location>Cantagalo</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-6608</PhoneNumbers>
+<Email>pccantagalo@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Teste de Investigação de Gravidez (TIG), Terapia Ocupacional, Fonoaudiologia, Psicólogo, Teste do Pezinho, BCG, Farmácia, Vacinas Básicas, Homeopatia, Saúde da Gestante, Hiperdia, Sisvon. </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA DE ESPECIALIDADES EM ATENÇÃO A SAÚDE DA MULHER MALÚ SAMPAIO</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Rua Visconde de Uruguai, 531 - Centro</Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2621-2302; 2621-1109 (fax); 2621-8185 (SAU)</PhoneNumbers>
+<Email>pems@saude.niteroi.rj.gov.br; </Email>
+<Description>Ultra de Mama, obstétrica, Patologia Cervical e Mamária, Infertilidade Conjugal, Obstetrícia de alto risco, Cirurgia Ambulatorial de  Patologia Cervical, Fisioterapia de apoio a pacientes mastectomizadas, Nucleo de Atenção Especial a Criança e ao Adolescente, Psicologia, Assistente social, Laboratório de Copocitopatologia.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>POLICLÍNICA DE ESPECIALIDADES DR. SYLVIO PICANÇO</Name>
+<Health_Type>Policlinica</Health_Type>
+<Address>Av. Amaral Peixoto, 169 - Centro</Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2719-1699; 2719-3255; 2620-0486 (fax)</PhoneNumbers>
+<Email>pesp@saude.niteroi.rj.gov.br; </Email>
+<Description>E.C.C, Eco cardiograma, Eletro encefalograma, Mamografia, Cardiologia, Serviço de Atendimento Auditivo (SASA), Fonoaudiologia, Otorrino, Farmácia, Psicologia, Assistente Social, Neurologia, Pneumologia, Endócrino, Angiologia, Gastroenterologia, Fisioterapia, Dermatologia, Proctologia, Hematologia, Oftalmologia, Acupuntura.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UNIDADE DE URGÊNCIA MÁRIO MONTEIRO</Name>
+<Health_Type>Urgencia e Emergencia</Health_Type>
+<Address>Estrada Francisco da Cruz Nunes s/nº - Itaipú</Address>
+<Location>Itaipú</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2619-2613</PhoneNumbers>
+<Email>direcao.umam@saude.niteroi.rj.gov.br; admin.umam@saude.niteroi.rj.gov.br</Email>
+<Description>Capacidade para o atendimento e estabilização de casos graves. Atendimento a acidentados. Não é Unidade Hospitalar, mas sim, pré-hospitalar. Urgências 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UPA 24h NITEROÍ</Name>
+<Health_Type>Urgencia e Emergencia</Health_Type>
+<Address>Rua Sá Barreto nº 107, Fonseca.</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2625-7807; 2625-7721</PhoneNumbers>
+<Email></Email>
+<Description>Urgências 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>SPA 1 - SERVIÇO DE PRONTO ATENDIMENTO DO LARGO DA BATALHA</Name>
+<Health_Type>Urgencia e Emergencia</Health_Type>
+<Address>Rua Vereador Armando Ferreira, 30 - Largo da Batalha</Address>
+<Location>Largo da Batalha</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-3633; 2616-0130</PhoneNumbers>
+<Email></Email>
+<Description>Urgências 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>SPA 2 - SERVIÇO DE PRONTO ATENDIMENTO DA ENGENHOCA</Name>
+<Health_Type>Urgencia e Emergencia</Health_Type>
+<Address>Avenida Professor João Brasil, S/Nº - Engenhoca</Address>
+<Location>Engenhoca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3603-8874; 2628-8047</PhoneNumbers>
+<Email></Email>
+<Description>Urgências 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>HOSPITAL ESTADUAL AZEVEDO LIMA</Name>
+<Health_Type>Urgencia e Emergencia</Health_Type>
+<Address>Rua Teixeira Freitas, 30 - Fonseca</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2299-9034</PhoneNumbers>
+<Email></Email>
+<Description>Emergências 24 horas.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>JESUS MONTAÑEZ - PMF PALÁCIO</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua 11 de Agosto, nº 4 - Ingá</Address>
+<Location>Ingá</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2722-0146</PhoneNumbers>
+<Email>pmfinga@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CÉLIA SANCHEZ - PMF ILHA DA CONCEIÇÃO</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Jornalista Sardo Filho, 196 - Ilha da Conceição</Address>
+<Location>Ilha da Conceição</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2620-6671; 2620-5333</PhoneNumbers>
+<Email>pmfilha@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CAMILO CIENFUEGOS - PMF VIRADOURO</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Mario Viana, 790 - Viradouro</Address>
+<Location>Viradouro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2711-8369</PhoneNumbers>
+<Email>pmfviradouro@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>JOSÉ ANTONIO ECHEVERRIA BIANCHI - PMF SOUZA SOARES</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Lions Club, 37 - Santa Rosa</Address>
+<Location>Santa Rosa</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3602-0083</PhoneNumbers>
+<Email>pmfssoares@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CARLOS J. FINLAY - PMF VITAL BRAZIL</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua João da Lossi - Trav. F nº 8 - Vital Brasil</Address>
+<Location>Vital Brasil</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2610-1904</PhoneNumbers>
+<Email>pmfvbrazil@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>FRANK PAÍS GARCIA - PMF CAVALÃO</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Alameda Paris s/nº - São Francisco</Address>
+<Location>São Francisco</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2611-9570</PhoneNumbers>
+<Email>pmfcavalao@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>ABEL SANTAMARIA - PMF PREVENTÓRIO I</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Travessa Carmita s/nº - Charitas</Address>
+<Location>Charitas</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2715-4313</PhoneNumbers>
+<Email>pmfpreventorio1@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CALIXTO GARCIA - PMF PREVENTÓRIO II</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Av.Quintino Bocaiúva s/nº - Charitas</Address>
+<Location>Charitas</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3701-0161</PhoneNumbers>
+<Email>pmfpreventorio2@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>MÁRIO MUNHOZ MONROE - PMF JURUJUBA (Carcarejo)</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Av.Carlos Ermelindo Marins s/nº - Jurujuba </Address>
+<Location>Jurujuba</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2704-9638; 2704-9668</PhoneNumbers>
+<Email></Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>JOSÉ SUÁREZ BLANCO - PMF JONATHAS BOTELHO</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Trav.Jonathas Botelho, 133 - Cubango </Address>
+<Location>Cubango</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2710-6367</PhoneNumbers>
+<Email>pmfjbotelho@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>PMF LAGOINHA </Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Av.Colônia s/nº - Cubango</Address>
+<Location>Cubango</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2625-9467</PhoneNumbers>
+<Email>pmflagoinha@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>JÚLIO DIAZ GONZALEZ - PMF LEOPOLDINA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua George Allan s/nº - Largo dos Barradas - Barreto </Address>
+<Location>Barreto</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2624-0017</PhoneNumbers>
+<Email>pmfleopoldina@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CARLOS RAFAEL RODRIGUES - PMF MARÍTIMOS</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Av. Machado, s/nº - Barreto </Address>
+<Location>Barreto</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3703-3265</PhoneNumbers>
+<Email>pmfmaritimos@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>JORGE LUIZ CAMACHO RODRIGUES - PMF MARUÍ</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Monsenhor Raeder, 151 - Barreto </Address>
+<Location>Barreto</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3714-2173</PhoneNumbers>
+<Email>pmfmarui@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>ANTÔNIO LÔPEZ - PMF NOVA BRASÍLIA </Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Professor João Brasil, 1726 - Engenhoca</Address>
+<Location>Engenhoca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3706-7519</PhoneNumbers>
+<Email>pmfnbrasilia1@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>WILMA ESPIN - PMF VILA IPIRANGA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Tenente Osório, s/nº  Fonseca</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2625-3821</PhoneNumbers>
+<Email></Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>HAIDÉE SANTAMARIA I - PMF CANTAGALO </Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Estrada Francisco Cruz Nunes s/nº - Cantagalo </Address>
+<Location>Cantagalo</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-5037</PhoneNumbers>
+<Email>pmfcantagalo1@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>SALVADOR ALLENDE - PMF ATALAIA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Padre José Euger - s/nº - Atalaia</Address>
+<Location>Atalaia</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2618-7616</PhoneNumbers>
+<Email>pmfatalaia@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>DR. WILSON DE OLIVEIRA - PMF ITITIOCA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Vila Costa Monteiro s/nº - Ititioca</Address>
+<Location>Ititioca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2610-0852</PhoneNumbers>
+<Email>pmfititioca@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>WILLIAN SOLLER I - PMF ENGENHO DO MATO </Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Estrada Irene Lopes Sodré s/nº - Engenho do Mato </Address>
+<Location>Engenho do Mato</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2709-5222</PhoneNumbers>
+<Email>pmfemato1@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>ERNESTO CHE GUEVARA I - PMF CAFUBÁ I</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Av.Raúl de Oliveira Rodrigues, S/Nº - Cafubá</Address>
+<Location>Cafubá</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2619-0757</PhoneNumbers>
+<Email>pmfcafuba1@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>ERNESTO CHE GUEVARA II - PMF CAFUBÁ II</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Vereador Luiz Erthal, Lt. 05, Qd. 69 - Cafubá </Address>
+<Location>Cafubá</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2619-5268</PhoneNumbers>
+<Email>pmfcafuba2@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>ALBERTO RICARDO HATIN - PMF CAFUBÁ III</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Manoel Pacheco de Carvalho 107 - Piratininga</Address>
+<Location>Piratininga</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2709-4374 </PhoneNumbers>
+<Email>pmfcafuba3@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CTE. MANOEL PIÑEIRO LOZADA - PMF MARAVISTA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Astor da Costa Menezes, S/Nº - Maravista</Address>
+<Location>Maravista</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2709-0360</PhoneNumbers>
+<Email>pmfmaravista@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>PMF COLONIA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Praia de Itaipu - Colônia dos Pescadores </Address>
+<Location>Colônia dos Pescadores</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2609-4332</PhoneNumbers>
+<Email>pmfcolonia@saude.niteroi.rj.gov.br; </Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>DR. OMAR MARINHO VIEIRA - PMF ALARICO DE SOUZA</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Estrada Alarico de Souza, s/nº - Santa Rosa</Address>
+<Location>Santa Rosa</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers></PhoneNumbers>
+<Email></Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>RAUL CARLOS PARETO JR. - PMF BERNARDINO</Name>
+<Health_Type>Medico de Familia</Health_Type>
+<Address>Rua Sá Barreto, nº 107 - Fonseca - ao lado da UPA</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers></PhoneNumbers>
+<Email></Email>
+<Description></Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS CENTRO DR. EDUARDO IMBASSAY </Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Rua Visconde de Uruguai, 531 - Centro</Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2620-8226; 2612-8183</PhoneNumbers>
+<Email>ubscentro@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Psicologia, Fonoaudiologia , Serviço Social, Vacinas básicas, Teste do Pezinho, Farmácia, Teste de Investigação de Gravidez (TIG), BCG, Hiperdia, Homeopatia e Puericultura.  </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS MORRO DO ESTADO DR. MARIO PARDAL </Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Rua Araujo Pimenta s/nº </Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2622-1010</PhoneNumbers>
+<Email>ubsestado@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Serviço Social, Vacinas básicas, Teste do Pezinho, Teste de Investigação de Gravidez (TIG), Farmácia, BCG e Teste do Olhinho.  </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS SANTA BÁRBARA ADELINO DE MENDONÇA E SILVA </Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
+<Location>Engenhoca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3603-8874; 2628-8047</PhoneNumbers>
+<Email>ubsengenhoca@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Núcleo de Saude Mental, Grupo Hipertensão e Diabetes, Saúde da Gestante, Serviço Social, Vacinas básicas, Teste do Pezinho , Eletrocardiograma , Farmácia, Fonoaudiologia, Teste de Investigação de Gravidez (TIG), Programas de Tabagismo, Adolescente, Idoso, Saúde da Mulher, Saúde Bucal, Imunização e Teste da Orelhinha.  </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS – BARRETO – Dr. João da Silva Vizella </Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Rua Luiz Palmier, 726 - Barreto</Address>
+<Location>Barreto</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2719-0141; 2719-6861</PhoneNumbers>
+<Email>ubsbarreto@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Nutrição, Cardiologia, Serviço Social, Vacinas Básicas, Teste do Pezinho, Eletrocardiograma, Laboratório, Farmácia, Fonoaudiologia, Planejamento familiar, Grupo de Hipertensão e Diabetes, Teste de Investigação de Gravidez (TIG), PPD, Grupo de Gestante, Psicologia, Terapeuta Ocupacional, Infectologista, Tabagismo, Odontologia.  </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS – BALDEADOR DEPUTADO JOSÉ SALLY  </Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Lot.Bento Pestana s/nº - Morro do Castro</Address>
+<Location>Baldeador</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2624-1224; 2722-3761</PhoneNumbers>
+<Email>ubsbaldeador@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Psicologia, Serviço Social, Vacinas básicas, Teste do Pezinho , Farmácia, Teste de Investigação de Gravidez (TIG).</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS PIRATININGA DOM LUIZ ORIONE</Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Av. dos Pescadores - Lotes 2,3 e 4 - Piratininga</Address>
+<Location>Piratininga</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2618-2654 </PhoneNumbers>
+<Email>ubspiratininga@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Psicologia, Fonoaudiologia, Serviço Social, Vacinas Básicas , Teste do Pezinho , Farmácia, Teste de Investigação de Gravidez (TIG), Teste do Olhinho e Triagem Auditiva.  </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS – VARZEA DAS MOÇAS DR. TOBIAS TOSTES MACHADO </Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Estrada Velha de Maricá s/nº - Várzea das Moças</Address>
+<Location>Várzea das Moças</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3602-8057</PhoneNumbers>
+<Email>ubsvmocas@saude.niteroi.rj.gov.br; </Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Homeopatia, Nutrição, Serviço Social, Vacinas básicas, Teste do Pezinho, Farmácia, Fonoaudiologia, Teste de Investigação de Gravidez (TIG), Programa de Tabagismo e Teste da Orelhinha.  </Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>UBS – ENGENHOCA – Policlínica Regional Norte II Dr.Renato Silva</Name>
+<Health_Type>Posto de Saude</Health_Type>
+<Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
+<Location>Engenhoca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>3603-8874 – 2628-8047</PhoneNumbers>
+<Email>ubsengenhoca@saude.niteroi.rj.gov.br</Email>
+<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Núcleo de Saude Mental, Grupo Hipertensão e Diabetes, Saúde da Gestante, Serviço Social, Vacinas básicas, Teste do Pezinho , Eletrocardiograma , Farmácia, Fonoaudiologia, Teste de Investigação de Gravidez (TIG), Programas de Tabagismo, Adolescente, Idoso, Saúde da Mulher, Saúde Bucal, Imunização e Teste da Orelhinha.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CAPS Casa do Largo</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>R. Nilo de Freitas, 41.Lgo. Batalha</Address>
+<Location>Largo da Batalha</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-5612/2718-0229</PhoneNumbers>
+<Email></Email>
+<Description>Atende os bairros Matapaca, Mª Paula, Jacaré, Ititioca, Lgo. da Batalha, Vila Progresso, Badú, Pendotiba, Várzea das Moças, Rio do Ouro, Sapê, Piratininga, Cafubá, Itaipu, Cantagalo, Maceió, Itacoatiara, Muriqui, Camboinhas, Engenho do Mato, Viçoso Jardim.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CAPS Herbert de Souza</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>R. Marques de Olinda, 104. Centro</Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2722-4147/2622-1533</PhoneNumbers>
+<Email></Email>
+<Description>Atende os bairros do Centro, São Domingos, Morro do Estado, Ilha da Conceição, São Lourenço, Sta. Bárbara, Ponta d’Areia, Bairro de Fátima, Ingá, Caramujo, Fonseca (até a rua 22 de Novembro), Vila Pereira Carneiro.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CAPS AD Alameda</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>Alameda São Boaventura, 129. Fonseca</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2718-5803</PhoneNumbers>
+<Email></Email>
+<Description>Referência para todo o município de Niterói.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>CAPSi Monteiro Lobato</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>R. Tiradentes, 18. Ingá</Address>
+<Location>Ingá</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2620-0318/2621-6598</PhoneNumbers>
+<Email></Email>
+<Description>Referência para todos os bairros de Niterói.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>Amb. Engenhoca</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>R. Pça Vital Brasil s/ no.Vital Brasil</Address>
+<Location>Vital Brasil</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2711-2366/2710-9176/2610-8975</PhoneNumbers>
+<Email></Email>
+<Description>Atende os bairros Sta. Rosa, Vital Brasil, Viradouro, Pé Pequeno, Cubango, Icaraí, Ingá, Boa Viagem, São Domingos, Gragoatá.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>Amb. Carlos Antônio da Silva</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>Av. Jansen de Melo s/ no.Centro</Address>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2719-0050/2717-1426</PhoneNumbers>
+<Email></Email>
+<Description>Atende os bairros Centro, Bairro de Fátima, Ilha da Conceição, Vila Pereira Carneiro, Ponta d’Areia, Portugal Pequeno, São Lourenço, Santana (Ponto Cem Réis), Fonseca (até a rua 22 de Novembro), Morro do Estado, Caramujo, Sta. Bárbara.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>Amb. Jurujuba</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>Av. Quintino bocaiúva s/ no.Charitas</Address>
+<Location>Charitas</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2714-8856  Ramal: 223</PhoneNumbers>
+<Email></Email>
+<Description>Atende Cascarejo, Cachoeira, Morro do Cavalão, São Francisco, Preventório, Charitas, Grota do Surucucu,Jurujuba.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>Amb. Pendotiba</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>R. Miguel Pereira Sarmento, 3/204 – Pendotiba</Address>
+<Location>Pendotiba</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-1456</PhoneNumbers>
+<Email></Email>
+<Description>Atende Matapaca, Mª Paula, Jacaré, Ititioca, Lgo. da Batalha, Vila Progresso, Badú, Pendotiba, Várzea das Moças, Rio do Ouro, Sapê, Piratininga, Cafubá, Itaipu, Cantagalo, Maceió, Itacoatiara, Muriqui, Camboinhas, Engenho do Mato, Viçoso Jardim.</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>R. Terapêutica Pendotiba</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>Est. Caetano Monteiro, 253 – Pendotiba</Address>
+<Location>Pendotiba</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2616-8722</PhoneNumbers>
+<Email></Email>
+<Description>Atende todo o municipio</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+<Entity>
+<Name>R. Terapêutica Fonseca</Name>
+<Health_Type>Saude Mental</Health_Type>
+<Address>R. Magnólia Brasil, 55 casa 1 – Fonseca</Address>
+<Location>Fonseca</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2626-2231</PhoneNumbers>
+<Email></Email>
+<Description>Atende todo o municipio</Description>
+<Latitude></Latitude>
+<Longitude></Longitude>
+</Entity>
+</Entities>

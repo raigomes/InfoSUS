@@ -1,28 +1,33 @@
 <?xml version="1.0"?>
 <Entities>
-<EntityRow>
+<Entity>
+<ID>1</ID>
 <Name>Serviço de Atendimento Móvel de Urgência</Name>
 <PhoneNumber>192</PhoneNumber>
 <Description>Atendimento de Urgências Médicas do SAMU</Description>
-</EntityRow>
-<EntityRow>
+</Entity>
+<Entity>
+<ID>2</ID>
 <Name>Corpo de Bombeiros</Name>
 <PhoneNumber>193</PhoneNumber>
 <Description>Socorre vítimas de acidentes, faz resgates, salvamentos, atende a emergências médicas e auxilia em caso de incêndios.</Description>
-</EntityRow>
-<EntityRow>
+</Entity>
+<Entity>
+<ID>3</ID>
 <Name>Salvamar</Name>
 <PhoneNumber>185</PhoneNumber>
 <Description>Resgate de pessoas em perigo no mar.</Description>
-</EntityRow>
-<EntityRow>
+</Entity>
+<Entity>
+<ID>4</ID>
 <Name>Disque Saúde</Name>
 <PhoneNumber>136</PhoneNumber>
-<Description>Serviço de ouvidoria do SUS que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. </Description>
-</EntityRow>
-<EntityRow>
+<Description>Serviço de ouvidoria do SUS que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações.</Description>
+</Entity>
+<Entity>
+<ID>5</ID>
 <Name>Centro de Atendimento à Mulher</Name>
 <PhoneNumber>180</PhoneNumber>
-<Description>Serviço de ouvidoria que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações. </Description>
-</EntityRow>
+<Description>Serviço de ouvidoria que informa sobre doenças e campanhas do Ministério da Saúde. Também recebe denúncias e reclamações.</Description>
+</Entity>
 </Entities>

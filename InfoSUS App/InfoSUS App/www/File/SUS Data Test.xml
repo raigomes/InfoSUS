@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Entities>
+	<Entity>
+		<Name>UBS PIRATININGA DOM LUIZ ORIONE</Name>
+		<Health_Type>Postos de Saúde</Health_Type>
+		<Address>Av. dos Pescadores - Lotes 2,3 e 4 - Piratininga</Address>
+		<Location>Piratininga</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2618-2654 </PhoneNumbers>
+		<Email>ubspiratininga@saude.niteroi.rj.gov.br; </Email>
+		<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Psicologia, Fonoaudiologia, Serviço Social, Vacinas Básicas , Teste do Pezinho , Farmácia, Teste de Investigação de Gravidez (TIG), Teste do Olhinho e Triagem Auditiva.  </Description>
+		<Point_1>-22.93899,-43.066707</Point_1>
+		<Point_2>-22.946171,-43.09322</Point_2>
+	</Entity>
+	<Entity>
+		<Name>UBS – VARZEA DAS MOÇAS DR. TOBIAS TOSTES MACHADO </Name>
+		<Health_Type>Postos de Saúde</Health_Type>
+		<Address>Estrada Velha de Maricá s/nº - Várzea das Moças</Address>
+		<Location>Várzea das Moças</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>3602-8057</PhoneNumbers>
+		<Email>ubsvmocas@saude.niteroi.rj.gov.br; </Email>
+		<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Homeopatia, Nutrição, Serviço Social, Vacinas básicas, Teste do Pezinho, Farmácia, Fonoaudiologia, Teste de Investigação de Gravidez (TIG), Programa de Tabagismo e Teste da Orelhinha.  </Description>
+		<Point_1>-22.933758,-43.016065</Point_1>
+		<Point_2>-22.902533,-42.964462</Point_2>
+	</Entity>
+	<Entity>
+		<Name>UBS – ENGENHOCA – Policlínica Regional Norte II Dr.Renato Silva</Name>
+		<Health_Type>Postos de Saúde</Health_Type>
+		<Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
+		<Location>Engenhoca</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>3603-8874 – 2628-8047</PhoneNumbers>
+		<Email>ubsengenhoca@saude.niteroi.rj.gov.br</Email>
+		<Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Núcleo de Saúde Mental, Grupo Hipertensão e Diabetes, Saúde da Gestante, Serviço Social, Vacinas básicas, Teste do Pezinho , Eletrocardiograma , Farmácia, Fonoaudiologia, Teste de Investigação de Gravidez (TIG), Programas de Tabagismo, Adolescente, Idoso, Saúde da Mulher, Saúde Bucal, Imunização e Teste da Orelhinha.</Description>
+		<Point_1>-22.87038,-43.09347</Point_1>
+		<Point_2>-22.87004,-43.10447</Point_2>
+	</Entity>
+	<Entity>
+		<Name>CAPS Casa do Largo</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>R. Nilo de Freitas, 41.Lgo. Batalha</Address>
+		<Location>Largo da Batalha</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2616-5612/2718-0229</PhoneNumbers>
+		<Email/>
+		<Description>Atende os bairros Matapaca, Mª Paula, Jacaré, Ititioca, Lgo. da Batalha, Vila Progresso, Badú, Pendotiba, Várzea das Moças, Rio do Ouro, Sapê, Piratininga, Cafubá, Itaipu, Cantagalo, Maceió, Itacoatiara, Muriqui, Camboinhas, Engenho do Mato, Viçoso Jardim.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>CAPS Herbert de Souza</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>R. Marques de Olinda, 104. Centro</Address>
+		<Location>Centro</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2722-4147/2622-1533</PhoneNumbers>
+		<Email/>
+		<Description>Atende os bairros do Centro, São Domingos, Morro do Estado, Ilha da Conceição, São Lourenço, Sta. Bárbara, Ponta d’Areia, Bairro de Fátima, Ingá, Caramujo, Fonseca (até a rua 22 de Novembro), Vila Pereira Carneiro.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>CAPS AD Alameda</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>Alameda São Boaventura, 129. Fonseca</Address>
+		<Location>Fonseca</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2718-5803</PhoneNumbers>
+		<Email/>
+		<Description>Referência para todo o município de Niterói.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>CAPSi Monteiro Lobato</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>R. Tiradentes, 18. Ingá</Address>
+		<Location>Ingá</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2620-0318/2621-6598</PhoneNumbers>
+		<Email/>
+		<Description>Referência para todos os bairros de Niterói.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>Amb. Engenhoca</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>R. Pça Vital Brasil s/ no.Vital Brasil</Address>
+		<Location>Vital Brasil</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2711-2366/2710-9176/2610-8975</PhoneNumbers>
+		<Email/>
+		<Description>Atende os bairros Sta. Rosa, Vital Brasil, Viradouro, Pé Pequeno, Cubango, Icaraí, Ingá, Boa Viagem, São Domingos, Gragoatá.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>Amb. Carlos Antônio da Silva</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>Av. Jansen de Melo s/ no.Centro</Address>
+		<Location>Centro</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2719-0050/2717-1426</PhoneNumbers>
+		<Email/>
+		<Description>Atende os bairros Centro, Bairro de Fátima, Ilha da Conceição, Vila Pereira Carneiro, Ponta d’Areia, Portugal Pequeno, São Lourenço, Santana (Ponto Cem Réis), Fonseca (até a rua 22 de Novembro), Morro do Estado, Caramujo, Sta. Bárbara.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>Amb. Jurujuba</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>Av. Quintino bocaiúva s/ no.Charitas</Address>
+		<Location>Charitas</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2714-8856  Ramal: 223</PhoneNumbers>
+		<Email/>
+		<Description>Atende Cascarejo, Cachoeira, Morro do Cavalão, São Francisco, Preventório, Charitas, Grota do Surucucu,Jurujuba.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>Amb. Pendotiba</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>R. Miguel Pereira Sarmento, 3/204 – Pendotiba</Address>
+		<Location>Pendotiba</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2616-1456</PhoneNumbers>
+		<Email/>
+		<Description>Atende Matapaca, Mª Paula, Jacaré, Ititioca, Lgo. da Batalha, Vila Progresso, Badú, Pendotiba, Várzea das Moças, Rio do Ouro, Sapê, Piratininga, Cafubá, Itaipu, Cantagalo, Maceió, Itacoatiara, Muriqui, Camboinhas, Engenho do Mato, Viçoso Jardim.</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>R. Terapêutica Pendotiba</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>Est. Caetano Monteiro, 253 – Pendotiba</Address>
+		<Location>Pendotiba</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2616-8722</PhoneNumbers>
+		<Email/>
+		<Description>Atende todo o municipio</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+	<Entity>
+		<Name>R. Terapêutica Fonseca</Name>
+		<Health_Type>Saúde Mental</Health_Type>
+		<Address>R. Magnólia Brasil, 55 casa 1 – Fonseca</Address>
+		<Location>Fonseca</Location>
+		<City>Niterói</City>
+		<State>Rio de Janeiro</State>
+		<PhoneNumbers>2626-2231</PhoneNumbers>
+		<Email/>
+		<Description>Atende todo o municipio</Description>
+		<Point_1/>
+		<Point_2/>
+	</Entity>
+</Entities>

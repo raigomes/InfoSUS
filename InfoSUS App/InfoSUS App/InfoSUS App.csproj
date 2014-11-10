@@ -46,13 +46,14 @@
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <BackgroundAgentType />
+    <NuGetPackageImportStamp>ced68f60</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Bin\Debug</OutputPath>
-    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP8</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;USE_WP8_NATIVE_SQLITE</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
@@ -63,7 +64,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>Bin\Release</OutputPath>
-    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;WP8</DefineConstants>
+    <DefineConstants>TRACE;USE_WP8_NATIVE_SQLITE</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
@@ -73,7 +74,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>Bin\x86\Debug</OutputPath>
-    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP8; USE_WP8_NATIVE_SQLITE</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <DebugType>full</DebugType>
     <PlatformTarget>
@@ -84,7 +85,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>Bin\x86\Release</OutputPath>
-    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <DefineConstants>TRACE;USE_WP8_NATIVE_SQLITE</DefineConstants>
     <Optimize>true</Optimize>
     <NoStdLib>true</NoStdLib>
     <DebugType>pdbonly</DebugType>
@@ -97,7 +98,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>Bin\ARM\Debug</OutputPath>
-    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <DebugType>full</DebugType>
     <PlatformTarget>
@@ -109,7 +110,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
     <OutputPath>Bin\ARM\Release</OutputPath>
-    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <DefineConstants>TRACE;USE_WP8_NATIVE_SQLITE</DefineConstants>
     <Optimize>true</Optimize>
     <NoStdLib>true</NoStdLib>
     <DebugType>pdbonly</DebugType>
@@ -145,6 +146,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="www\plugins\org.apache.cordova.geolocation\src\wp\GeoLocation.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -161,13 +163,20 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="config.xml" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="www\cordova.js" />
+    <Content Include="www\css\jquery.mobile-1.4.5.css" />
+    <Content Include="www\css\jquery.mobile-1.4.5.min.css" />
+    <Content Include="www\File\SUS Data Test.xml" />
+    <Content Include="www\File\SUS Data.xml" />
     <Content Include="www\File\telefonesuteis.xml" />
     <Content Include="www\img\back_button.png" />
+    <Content Include="www\img\sus.png" />
     <Content Include="www\img\Símbolo do SUS.png" />
     <Content Include="www\index.html" />
     <Content Include="www\css\index.css" />
@@ -179,6 +188,24 @@
     <Content Include="Images\appbar.next.rest.png" />
     <Content Include="Images\appbar.save.rest.png" />
     <Content Include="Images\appbar.stop.rest.png" />
+    <Content Include="www\js\jquery-1.11.1.min.js" />
+    <Content Include="www\js\jquery.mobile-1.4.5.js" />
+    <Content Include="www\js\jquery.mobile-1.4.5.min.js" />
+    <Content Include="www\js\jquery.ui.bmap.js" />
+    <Content Include="www\js\jquery.ui.bmap.min.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\plugin.xml" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\src\firefoxos\GeolocationProxy.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\src\ios\CDVLocation.h" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\src\ubuntu\geolocation.cpp" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\src\ubuntu\geolocation.h" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\src\windows\GeolocationProxy.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\tests\plugin.xml" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\tests\tests.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\www\blackberry10\GeolocationProxy.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\www\Coordinates.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\www\geolocation.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\www\Position.js" />
+    <Content Include="www\plugins\org.apache.cordova.geolocation\www\PositionError.js" />
     <None Include="cordova\lib\build.js" />
     <None Include="cordova\lib\clean.js" />
     <None Include="cordova\lib\deploy.js" />
@@ -204,8 +231,24 @@
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
-    <None Include="www\File\telefonesuteis.json" />
-    <None Include="www\js\telefonesuteis.json" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\.fetch.json" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\CONTRIBUTING.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\de\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\es\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\fr\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\it\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\ja\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\ko\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\pl\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\ru\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\doc\zh\index.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\LICENSE" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\NOTICE" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\package.json" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\README.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\RELEASENOTES.md" />
+    <None Include="www\plugins\org.apache.cordova.geolocation\src\ios\CDVLocation.m" />
     <None Include="www\telefonesuteis.json" />
   </ItemGroup>
   <ItemGroup>
@@ -223,7 +266,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
