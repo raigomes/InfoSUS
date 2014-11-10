@@ -1,10 +1,10 @@
 /// <reference path="c:\users\t-raim\documents\visual studio 2012\projects\infosus\infosus app\infosus app\scripts\jquery-2.1.1.intellisense.js" />
 /// <reference path="c:\users\t-raim\documents\visual studio 2012\projects\infosus\infosus app\infosus app\scripts\jquery-2.1.1.js" />
 /// <reference path="c:\users\t-raim\documents\visual studio 2012\projects\infosus\infosus app\infosus app\scripts\jquery-2.1.1.min.js" />
-var map, geoLocationProvider;
+var map = null, geoLocationProvider, myLatitude, myLongitude;
 
 document.addEventListener('deviceready', this.onDeviceReady, false);
-    
+
 function onDeviceReady() {
     $(document).ready(function () {
         //Telefones             
@@ -35,42 +35,40 @@ function onDeviceReady() {
         });
         //Unidades mais próximas
         $("#btn21").click(function () {
-            alert("entrou");
             Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', {
                 callback: function () {
                     GetMap();
-                    ShowCurrentPosition();
+                    var pos = ShowCurrentPosition();
+                    alert(myLatitude + ", " + myLongitude);
                     ShowNeighborhoods(map.getCenter());
                 }
             });
-
-            alert("saiu");
         });
         //Postos de Saúde
         $("#btn22").click(function () {
-            getDataFromXML("File/SUS Data.xml", "Posto de Saude");            
+            getDataFromXML("File/SUS Data.xml", "Posto de Saude");
         });
         //PMF
-        $("#btn23").click(function() { 
+        $("#btn23").click(function () {
             getDataFromXML("File/SUS Data.xml", "Medico de Familia");
-        });        
+        });
         //Policlínicas
-        $("#btn24").click(function() { 
+        $("#btn24").click(function () {
             getDataFromXML("File/SUS Data.xml", "Policlinica");
-        });        
+        });
         //Urgência e Emergência
-        $("#btn25").click(function() { 
+        $("#btn25").click(function () {
             getDataFromXML("File/SUS Data.xml", "Urgencia e Emergencia");
-        });        
+        });
         //Hospitais
-        $("#btn26").click(function() { 
+        $("#btn26").click(function () {
             getDataFromXML("File/SUS Data.xml", "Hospital");
-        });            
+        });
         //Saúde Mental
         $("#btn27").click(function () {
             getDataFromXML("File/SUS Data.xml", "Saude Mental");
         });
-        
+
         $("#btn31").click(function () {//SUS
 
         });
@@ -95,7 +93,7 @@ function onDeviceReady() {
     });
 }
 
-function getDataFromXML(fileName, healthType) {    
+function getDataFromXML(fileName, healthType) {
     $.support.cors = true;
     $.mobile.allowCrossDomainPages = true;
     var path = window.location.pathname.replace('index.html', fileName);
@@ -104,7 +102,7 @@ function getDataFromXML(fileName, healthType) {
         dataType: "xml",
         isLocal: true,
         async: false,
-        success: function(responseXML) {getClinics(responseXML, healthType);},
+        success: function (responseXML) { getClinics(responseXML, healthType); },
         error: function (jqXHR, textStatus, errorThrown) {
             alert("ERROR: " + jqXHR.status + " " + jqXHR.statusText);
         }
@@ -112,27 +110,36 @@ function getDataFromXML(fileName, healthType) {
 }
 
 function getClinics(responseXML, healthType) {    
-    var answer = ""//"<div data-role='collapsible-set'>";
     $("#contentBody").empty();
     $.each($(responseXML).find("Entity"), function (key, val) {
         //alert("entrou");
         if ($(val).find("Health_Type").text() == healthType) {
-            var id = $(val).find("ID");            
-            $("#contentBody").append("<div data-role='collapsible' id='clinic" + id.text() + "'></div>");            
-            $("#clinic" + id.text()).append("<h3>" + $(val).find("Name").text().toUpperCase() + "</h3>");
-            $("#clinic" + id.text()).append("<p><b>Tipo: </b>" + $(val).find("Health_Type").text() + "</p>");
-            $("#clinic" + id.text()).append("<p><b>Endere&ccedil;o: </b>" + $(val).find("Address").text() + "</p>");
-            $("#clinic" + id.text()).append("<p><b>Bairro: </b>" + $(val).find("Location").text() + "</p>");
-            $("#clinic" + id.text()).append("<p><b>Cidade: </b>" + $(val).find("City").text() + "</p>");
-            $("#clinic" + id.text()).append("<a href='#map' onclick='showClinic("+$(val).find("Latitude")+", "+$(val).find("Longitude")+");'>Veja no mapa</a>");
-            //alert($("#contentBody").html());
+            var id = $(val).find("ID").text();
+            var name = $(val).find("Name").text().toUpperCase();
+            var type = $(val).find("Health_Type").text();
+            var address = $(val).find("Address").text();
+            var location = $(val).find("Location").text();
+            var city = $(val).find("City").text();
+
+            $("#contentBody").append("<div data-role='collapsible' id='clinic" + id + "'></div>");
+            $("#clinic" + id).append("<h3>" + name + "</h3>");
+            $("#clinic" + id).append("<p><b>Unidade: </b>" + name + "</p>");
+            $("#clinic" + id).append("<p><b>Tipo: </b>" + type + "</p>");
+            $("#clinic" + id).append("<p><b>Endere&ccedil;o: </b>" + address + "</p>");
+            $("#clinic" + id).append("<p><b>Bairro: </b>" + location + "</p>");
+            $("#clinic" + id).append("<p><b>Cidade: </b>" + city + "</p>");
+
+            $("#clinic" + id).append("<a href='#map' id='mapLink"+id+"'>Veja no mapa</a>");
+            $("#mapLink" + id).click(function() {
+                ShowClinic($(val).find("Latitude").text(), $(val).find("Longitude").text(), name, address)
+            });
+
+            //alert($("#clinic" + id).html());
         }
     });
-    //answer = answer + "</div>";
     $("#content").find("h1").empty().append(healthType);
     $("#contentBody").collapsibleset('refresh');
-    //$(answer).appendTo("#contentBody");
-    
+
 }
 
 function GetMap() {
@@ -143,32 +150,8 @@ function GetMap() {
         mapTypeId: Microsoft.Maps.MapTypeId.auto,
         enableClickableLogo: false,
         enableSearchLogo: false,
-        //center: new Microsoft.Maps.Location(-22.889115, -43.124703),
-        //zoom: 12,
         theme: new Microsoft.Maps.Themes.BingTheme()
     });
-
-    //var location, pin, polygon;
-    //var vertices = new Array(4);
-    //var polygonWithPins = new Microsoft.Maps.EntityCollection();
-    //for (var i = 0; i < 8; i += 2) {
-    //    location = new Microsoft.Maps.Location(-22.88 - i * -0.01, -43.12 + i * 0.01);
-    //    vertices[i / 2] = location;
-    //}
-
-    //var polygonColor = new Microsoft.Maps.Color(100, 100, 0, 100);
-    //polygon = new Microsoft.Maps.Polygon(vertices, { fillColor: polygonColor, strokeColor: polygonColor });
-
-    //alert("entrou");
-
-    //polygonWithPins.push(polygon);
-    //polygonWithPins.push(new Microsoft.Maps.Pushpin(vertices[0]));
-    //polygonWithPins.push(new Microsoft.Maps.Pushpin(vertices[1]));
-    //polygonWithPins.push(new Microsoft.Maps.Pushpin(vertices[2]));
-    //polygonWithPins.push(new Microsoft.Maps.Pushpin(vertices[3]));
-    //polygonWithPins.push(new Microsoft.Maps.Pushpin(vertices[4]));
-
-    //map.entities.push(polygonWithPins);
 
 }
 
@@ -176,40 +159,75 @@ function ShowCurrentPosition() {
     geoLocationProvider = new Microsoft.Maps.GeoLocationProvider(map);
     geoLocationProvider.getCurrentPosition({
         successCallback: function (position) {
-            alert("pass");
             var location = new Microsoft.Maps.Location(position.coords.latitude, position.coords.longitude);
-
-            var pin = new Microsoft.Maps.Pushpin(location, {
-                icon: 'img/sus.png',
-                width: 25,
-                height: 25,
-                draggable: true,
-                visible: true
-            });
-            var pinInfobox = new Microsoft.Maps.Infobox(pin.getLocation(),
-            {
-                title: 'My Pushpin',
-                description: 'This pushpin is located at ' + centerPoint,
-                visible: false,
-                offset: new Microsoft.Maps.Point(0, 15)
-            });
-
-            //Pushpin Click Event.
-            Microsoft.Maps.Events.addHandler(pin, 'click', displayInfobox);
-            //Hide the infobox whem the map is moved.
-            Microsoft.Maps.Events.addHandler(map, 'viewchange', hideInfobox);
-
+            var pin = new Microsoft.Maps.Pushpin(location);
             map.entities.push(pin);
-            map.entities.push(pinInfobox);
+            myLatitude = position.coords.latitude;
+            myLongitude = position.coords.longitude;
         },
         errorCallback: function (e) {
-            alert('ERRO');
+            alert('ERRO ao definir a posição do GPS.');
             alert('ERRO: ' + e.errorCode + ' ' + e.internalError);
+            return null;
         }
     });
 }
 
 function ShowNeighborhoods() {
+    map.entities.clear();
+    var list = getSortedList();
+    $.each(list, function (key, val) {
+
+    });
+}
+
+function ShowClinic(latitude, longitude, name, address) {    
+    Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', {
+        callback: function () {
+            if (map == null)
+                GetMap();
+            else
+                map.entities.clear();
+
+            AddPushPin(latitude, longitude, name, address, 'img/sus.png');
+            ChangeView(location, 15);
+        }
+    });
+}
+
+function AddPushPin(latitude, longitude, pinTitle, pinDescription, pinIcon) {
+    var location, pin, infobox, pinLayer, infoboxLayer;
+
+    location = new Microsoft.Maps.Location(latitude, longitude);
+    //alert("entrou");
+    if (pinIcon != null) {
+        pin = new Microsoft.Maps.Pushpin(location, { icon: pinIcon, width: 50, height: 50 });
+        if (pinTitle != null) {            
+            infobox = new Microsoft.Maps.Infobox(location, { title: pinTitle, description: pinDescription, visible: false, offset: new Microsoft.Maps.Point(0, 25) });
+            Microsoft.Maps.Events.addHandler(pin, 'click', function (e) {
+                infobox.setOptions({ visible: true });
+                infobox.setLocation(e.target.getLocation());
+            });
+            map.entities.push(infobox);
+            map.entities.push(pin);            
+        }        
+    }
+    else {
+        pin = new Microsoft.Maps.Pushpin(location);
+        map.entities.push(pin);
+        alert("-1");
+    }        
+    //alert("saiu");
+}
+
+function ChangeView(location, zoom) {
+    var viewOptions = map.getOptions();
+    viewOptions.zoom = zoom;
+    viewOptions.center = location;
+    map.setView(viewOptions);
+}
+
+function getSortedList() {
 
 }
 
@@ -279,11 +297,11 @@ function ToggleGPS() {
 }
 
 function displayInfobox(e) {
-    pinInfobox.setOptions({ visible: true });
+    infobox.setOptions({ visible: true });
 }
 
 function hideInfobox(e) {
-    pinInfobox.setOptions({ visible: false });
+    infobox.setOptions({ visible: false });
 }
 
 function createSearchManager() {
