@@ -2,79 +2,85 @@
 <Entities>
 <Entity>
 <ID>1</ID>
-<Name>HOSPITAL MUNICIPAL CARLOS TORTELLY  </Name>
+<EntityName>HOSPITAL MUNICIPAL CARLOS TORTELLY  (Antigo CPN)</EntityName>
+<DisplayName>HOSPITAL MUNICIPAL CARLOS TORTELLY</DisplayName>
 <Health_Type>Hospital</Health_Type>
-<Address>Rua Des. Athayde Parreira, 266 - Centro</Address>
+<AddressLine>Rua Des. Athayde Parreira, 266</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2729-9300; 2729-9343; 2729-9340 </PhoneNumbers>
 <Email>direcao.hmct@saude.niteroi.rj.gov.br; admin.hmct@saude.niteroi.rj.gov.br</Email>
 <Description>Emergência 24 horas. </Description>
-<Latitude>-22.888460</Latitude>
-<Longitude>-43.114689</Longitude>
+<Latitude>-22.895575</Latitude>
+<Longitude>-43.110475</Longitude>
 </Entity>
 <Entity>
 <ID>2</ID>
-<Name>HOSPITAL GETÚLIO VARGAS FILHO</Name>
+<EntityName>HOSPITAL PEDIÁTRICO GETÚLIO VARGAS FILHO</EntityName>
+<DisplayName>HOSPITAL GETULINHO</DisplayName>
 <Health_Type>Hospital</Health_Type>
-<Address>Rua Teixeira de Freitas s/nº - Fonseca</Address>
+<AddressLine>Rua Teixeira de Freitas s/nº</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2627-1535; 2627-1525; 2627-1543</PhoneNumbers>
 <Email>direcao.hgfv@saude.niteroi.rj.gov.br; admin.hgvf@saude.niteroi.rj.gov.br</Email>
 <Description>Emergência pediátrica, porta aberta 24 horas.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.880942</Latitude>
+<Longitude>-43.078719</Longitude>
 </Entity>
 <Entity>
 <ID>3</ID>
-<Name>HOSPITAL ORÊNCIO DE FREITAS</Name>
+<EntityName>HOSPITAL ORÊNCIO DE FREITAS</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Hospital</Health_Type>
-<Address>Av.Machado s/nº - Barreto</Address>
+<AddressLine>Av.Machado s/nº</AddressLine>
 <Location>Barreto</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2620-5157; 2620-3434</PhoneNumbers>
 <Email>direcao.hof@saude.niteroi.rj.gov.br; admin.hof@saude.niteroi.rj.gov.br</Email>
 <Description>Emergência 24 horas para atendimento a cirurgias abdominais. Conta com outros serviços de cirurgias como ginecológicas, urológicas, vasculares e com vídeolaparoscopia em caráter eletivo. </Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.864663</Latitude>
+<Longitude>-43.094735</Longitude>
 </Entity>
 <Entity>
 <ID>4</ID>
-<Name>HOSPITAL PSIQUIÁTRICO JURUJUBA</Name>
+<EntityName>HOSPITAL PSIQUIÁTRICO JURUJUBA</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>Av.Quintino Bocaiúva, s/nº - Charitas</Address>
-<Location>Charitas</Location>
+<AddressLine>Av. Prefeito Sylvio Picanço s/nº</AddressLine>
+<Location>Jurujuba</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2714-8856; 2710-0663; 2610-7678</PhoneNumbers>
 <Email>direcao.hpj@saude.niteroi.rj.gov.br; admin.hpj@saude.niteroi.rj.gov.br</Email>
 <Description>Emergência 24 horas para o atendimento psiquiátrico do município.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.931986</Latitude>
+<Longitude>-43.097964</Longitude>
 </Entity>
 <Entity>
 <ID>5</ID>
-<Name>MATERNIDADE ALZIRA REIS</Name>
+<EntityName>MATERNIDADE ALZIRA REIS</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Hospital</Health_Type>
-<Address>Av.Carlos Ermelindo Marins s/nº - Jurujuba</Address>
+<AddressLine>Av.Carlos Ermelindo Marins s/nº</AddressLine>
 <Location>Jurujuba</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>3611-0107; 3701-1846</PhoneNumbers>
 <Email>direcao.mar@saude.niteroi.rj.gov.br; admin.mar@saude.niteroi.rj.gov.br</Email>
 <Description>Referência para gestantes de baixo risco no município. Emergência 24 horas.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.935185</Latitude>
+<Longitude>-43.100935</Longitude>
 </Entity>
 <Entity>
 <ID>6</ID>
-<Name>Policlinica REGIONAL DR. CARLOS ANTÔNIO DA SILVA</Name>
+<EntityName>Policlinica REGIONAL DR. CARLOS ANTÔNIO DA SILVA</EntityName>
+<DisplayName>POLICLÍNICA REGIONAL DE SÃO LOURENÇO</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Rua Jansen de Mello s/nº - São Lourenço</Address>
+<AddressLine>Rua Jansen de Mello s/nº</AddressLine>
 <Location>São Lourenço</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -86,9 +92,10 @@
 </Entity>
 <Entity>
 <ID>7</ID>
-<Name>Policlinica REGIONAL DR. SÉRGIO AROUCA</Name>
+<EntityName>Policlinica REGIONAL DR. SÉRGIO AROUCA</EntityName>
+<DisplayName>POLICLÍNICA REGIONAL DE SANTA ROSA</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Praça Vital Brazil s/nº - Santa Rosa</Address>
+<AddressLine>Praça Vital Brazil s/nº</AddressLine>
 <Location>Santa Rosa</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -100,37 +107,40 @@
 </Entity>
 <Entity>
 <ID>8</ID>
-<Name>Policlinica REGIONAL DR. GUILHERME TAYLOR MARCH</Name>
+<EntityName>Policlinica REGIONAL DR. GUILHERME TAYLOR MARCH</EntityName>
+<DisplayName>POLICLÍNICA REGIONAL DO FONSECA</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Rua Desembargador Lima Castro, 238 - Fonseca</Address>
+<AddressLine>Rua Desembargador Lima Castro, 238</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2626-4170</PhoneNumbers>
 <Email>prgmarch@saude.niteroi.rj.gov.br; </Email>
 <Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Nutrição, Dermatologia, Neurologia, Psicologia, Assistência Social, Homeopatia, Endocrinologia, Pneumologista, Fisioterapia, Terapia Ocupacional, Fonoaudiologia, Cardiologista, Farmácia, Eletrocardiograma, Exame do pezinho e triagem comportamental, Vacinas básicas, grupos:  idosos, mamãe e bebê, Planejamento Familiar, Hipertensão e Diabetes, Gestante e Teste de Investigação de Gravidez (TIG), Hanseníase, Tuberculose, Sisvon, Urologista, Teste do Olhinho e Orelhinha, Neurologista (só adulto). </Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.886177</Latitude>
+<Longitude>-43.088330</Longitude>
 </Entity>
 <Entity>
 <ID>9</ID>
-<Name>Policlinica REGIONAL DO LARGO DA BATALHA DR. FRANCISCO DA CRUZ NUNES</Name>
+<EntityName>Policlinica REGIONAL DO LARGO DA BATALHA DR. FRANCISCO DA CRUZ NUNES</EntityName>
+<DisplayName>POLICLÍNICA REGIONAL DO LARGO DA BATALHA</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Rua Ver.Armando Ferreira, 30 - Largo da Batalha</Address>
+<AddressLine>Rua Ver.Armando Ferreira, 30</AddressLine>
 <Location>Largo da Batalha</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2616-3633; 2710-1053; 2710-7100</PhoneNumbers>
 <Email>prlbatalha@saude.niteroi.rj.gov.br; </Email>
 <Description>Consultas básicas (Clínica Médica, Pediatria, Ginecologia), Odontologia, Endocrinologia, Nutrição, Dermatologia, Alergista, Fonoaudiologia ,Fisioterapia, Assistência Social, Infectologia, Geriatria, Neurologia, Cardiologista, RX, Coleta domiciliar , Teste do Pezinho e Orelhinha, Teste de Investigação de Gravidez (TIG), Programa de Tabagismo, Saúde da mulher, Hiperdia, Urologista.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.907589</Latitude>
+<Longitude>-43.067285</Longitude>
 </Entity>
 <Entity>
 <ID>10</ID>
-<Name>Policlinica REGIONAL DE ITAIPU ASSISTENTE SOCIAL MARIA APARECIDA DA COSTA</Name>
+<EntityName>Policlinica REGIONAL DE ITAIPU ASSISTENTE SOCIAL MARIA APARECIDA DA COSTA</EntityName>
+<DisplayName>POLICLÍNICA REGIONAL DE ITAIPU</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Est.Engenho do Mato s/nº - Itaipu</Address>
+<AddressLine>Est.Engenho do Mato s/nº</AddressLine>
 <Location>Itaipu</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -142,9 +152,10 @@
 </Entity>
 <Entity>
 <ID>11</ID>
-<Name>Policlinica REGIONAL DA ENGENHOCA DR. RENATO SILVA</Name>
+<EntityName>Policlinica REGIONAL DA ENGENHOCA DR. RENATO SILVA</EntityName>
+<DisplayName>POLICLÍNICA REGIONAL DE ENGENHOCA</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Avenida João Brasil, s/nº - Engenhoca</Address>
+<AddressLine>Avenida João Brasil, s/nº</AddressLine>
 <Location>Engenhoca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -156,9 +167,10 @@
 </Entity>
 <Entity>
 <ID>12</ID>
-<Name>Policlinica COMUNITÁRIA ILHA DA CONCEIÇÃO </Name>
+<EntityName>Policlinica COMUNITÁRIA ILHA DA CONCEIÇÃO </EntityName>
+<DisplayName>Policlinica COMUNITÁRIA ILHA DA CONCEIÇÃO </DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Rua Jornalista Sardo Filho, 196 - Ilha da Conceição</Address>
+<AddressLine>Rua Jornalista Sardo Filho, 196</AddressLine>
 <Location>Ilha da Conceição</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -170,9 +182,10 @@
 </Entity>
 <Entity>
 <ID>13</ID>
-<Name>Policlinica COMUNITÁRIA DE JURUJUBA</Name>
+<EntityName>Policlinica COMUNITÁRIA DE JURUJUBA AURELINO BARCELLOS</EntityName>
+<DisplayName>Policlinica COMUNITÁRIA DE JURUJUBA</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Av. Carlos Ermelindo Marins s/nº - Jurujuba</Address>
+<AddressLine>Av. Carlos Ermelindo Marins s/nº</AddressLine>
 <Location>Jurujuba</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -184,9 +197,10 @@
 </Entity>
 <Entity>
 <ID>14</ID>
-<Name>Policlinica COMUNITÁRIA DO CANTAGALO PROFESSOR BARROS TERRA</Name>
+<EntityName>Policlinica COMUNITÁRIA DO CANTAGALO PROFESSOR BARROS TERRA</EntityName>
+<DisplayName>Policlinica COMUNITÁRIA DO CANTAGALO</DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Rua Alcebíades Pinto, s/nº - Cantagalo</Address>
+<AddressLine>Rua Alcebíades Pinto, s/nº</AddressLine>
 <Location>Cantagalo</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -198,65 +212,70 @@
 </Entity>
 <Entity>
 <ID>15</ID>
-<Name>Policlinica DE ESPECIALIDADES EM ATENÇÃO A SAÚDE DA MULHER MALÚ SAMPAIO</Name>
+<EntityName>Policlinica DE ESPECIALIDADES EM ATENÇÃO A SAÚDE DA MULHER MALÚ SAMPAIO</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Rua Visconde de Uruguai, 531 - Centro</Address>
+<AddressLine>Rua Visconde de Uruguai, 531</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2621-2302; 2621-1109 (fax); 2621-8185 (SAU)</PhoneNumbers>
 <Email>pems@saude.niteroi.rj.gov.br; </Email>
 <Description>Ultra de Mama, obstétrica, Patologia Cervical e Mamária, Infertilidade Conjugal, Obstetrícia de alto risco, Cirurgia Ambulatorial de  Patologia Cervical, Fisioterapia de apoio a pacientes mastectomizadas, Nucleo de Atenção Especial a Criança e ao Adolescente, Psicologia, Assistente social, Laboratório de Copocitopatologia.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.893847</Latitude>
+<Longitude>-43.122172</Longitude>
 </Entity>
 <Entity>
 <ID>16</ID>
-<Name>Policlinica DE ESPECIALIDADES DR. SYLVIO PICANÇO</Name>
+<EntityName>Policlinica DE ESPECIALIDADES DR. SYLVIO PICANÇO</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Policlinica</Health_Type>
-<Address>Av. Amaral Peixoto, 169 - Centro</Address>
+<AddressLine>Av. Amaral Peixoto, 169</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2719-1699; 2719-3255; 2620-0486 (fax)</PhoneNumbers>
 <Email>pesp@saude.niteroi.rj.gov.br; </Email>
 <Description>E.C.C, Eco cardiograma, Eletro encefalograma, Mamografia, Cardiologia, Serviço de Atendimento Auditivo (SASA), Fonoaudiologia, Otorrino, Farmácia, Psicologia, Assistente Social, Neurologia, Pneumologia, Endócrino, Angiologia, Gastroenterologia, Fisioterapia, Dermatologia, Proctologia, Hematologia, Oftalmologia, Acupuntura.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.893462</Latitude>
+<Longitude>-43.122408</Longitude>
 </Entity>
 <Entity>
 <ID>17</ID>
-<Name>UNIDADE DE URGÊNCIA MÁRIO MONTEIRO</Name>
+<EntityName>UNIDADE DE URGÊNCIA MÁRIO MONTEIRO</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Urgencia e Emergencia</Health_Type>
-<Address>Estrada Francisco da Cruz Nunes s/nº - Itaipú</Address>
-<Location>Itaipú</Location>
+<AddressLine>Estrada Francisco da Cruz Nunes s/nº</AddressLine>
+<Location>Piratininga</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2619-2613</PhoneNumbers>
 <Email>direcao.umam@saude.niteroi.rj.gov.br; admin.umam@saude.niteroi.rj.gov.br</Email>
 <Description>Capacidade para o atendimento e estabilização de casos graves. Atendimento a acidentados. Não é Unidade Hospitalar, mas sim, pré-hospitalar. Urgências 24 horas.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.929031</Latitude>
+<Longitude>-43.063855</Longitude>
 </Entity>
 <Entity>
 <ID>18</ID>
-<Name>UPA 24h NITEROÍ</Name>
+<EntityName>UPA 24h NITEROÍ</EntityName>
+<DisplayName>UPA DO FONSECA</DisplayName>
 <Health_Type>Urgencia e Emergencia</Health_Type>
-<Address>Rua Sá Barreto nº 107, Fonseca.</Address>
+<AddressLine>Rua Sá Barreto nº 107</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2625-7807; 2625-7721</PhoneNumbers>
 <Email></Email>
 <Description>Urgências 24 horas.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.883429</Latitude>
+<Longitude>-43.082718</Longitude>
 </Entity>
 <Entity>
 <ID>19</ID>
-<Name>SPA 1 - SERVIÇO DE PRONTO ATENDIMENTO DO LARGO DA BATALHA</Name>
+<EntityName>SPA 1 - SERVIÇO DE PRONTO ATENDIMENTO DO LARGO DA BATALHA</EntityName>
+<DisplayName>SPA LARGO DA BATALHA</DisplayName>
 <Health_Type>Urgencia e Emergencia</Health_Type>
-<Address>Rua Vereador Armando Ferreira, 30 - Largo da Batalha</Address>
+<AddressLine>Rua Vereador Armando Ferreira, 30</AddressLine>
 <Location>Largo da Batalha</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -268,9 +287,10 @@
 </Entity>
 <Entity>
 <ID>20</ID>
-<Name>SPA 2 - SERVIÇO DE PRONTO ATENDIMENTO DA ENGENHOCA</Name>
+<EntityName>SPA 2 - SERVIÇO DE PRONTO ATENDIMENTO DA ENGENHOCA</EntityName>
+<DisplayName>SPA ENGENHOCA</DisplayName>
 <Health_Type>Urgencia e Emergencia</Health_Type>
-<Address>Avenida Professor João Brasil, S/Nº - Engenhoca</Address>
+<AddressLine>Avenida Professor João Brasil, S/Nº</AddressLine>
 <Location>Engenhoca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -282,23 +302,25 @@
 </Entity>
 <Entity>
 <ID>21</ID>
-<Name>HOSPITAL ESTADUAL AZEVEDO LIMA</Name>
+<EntityName>HOSPITAL ESTADUAL AZEVEDO LIMA</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Urgencia e Emergencia</Health_Type>
-<Address>Rua Teixeira Freitas, 30 - Fonseca</Address>
+<AddressLine>Rua Teixeira Freitas, 30</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2299-9034</PhoneNumbers>
 <Email></Email>
 <Description>Emergências 24 horas.</Description>
-<Latitude></Latitude>
-<Longitude></Longitude>
+<Latitude>-22.880588</Latitude>
+<Longitude>-43.078637</Longitude>
 </Entity>
 <Entity>
 <ID>22</ID>
-<Name>JESUS MONTAÑEZ - PMF PALÁCIO</Name>
+<EntityName>JESUS MONTAÑEZ - PMF PALÁCIO</EntityName>
+<DisplayName>PMF PALÁCIO</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua 11 de Agosto, nº 4 - Ingá</Address>
+<AddressLine>Rua 11 de Agosto, nº 4</AddressLine>
 <Location>Ingá</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -310,9 +332,10 @@
 </Entity>
 <Entity>
 <ID>23</ID>
-<Name>CÉLIA SANCHEZ - PMF ILHA DA CONCEIÇÃO</Name>
+<EntityName>CÉLIA SANCHEZ - PMF ILHA DA CONCEIÇÃO</EntityName>
+<DisplayName>PMF ILHA DA CONCEIÇÃO</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Jornalista Sardo Filho, 196 - Ilha da Conceição</Address>
+<AddressLine>Rua Jornalista Sardo Filho, 196</AddressLine>
 <Location>Ilha da Conceição</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -324,9 +347,10 @@
 </Entity>
 <Entity>
 <ID>24</ID>
-<Name>CAMILO CIENFUEGOS - PMF VIRADOURO</Name>
+<EntityName>CAMILO CIENFUEGOS - PMF VIRADOURO</EntityName>
+<DisplayName>PMF VIRADOURO</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Mario Viana, 790 - Viradouro</Address>
+<AddressLine>Rua Nsa. Senhora das Graças, 474 </AddressLine>
 <Location>Viradouro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -338,9 +362,10 @@
 </Entity>
 <Entity>
 <ID>25</ID>
-<Name>JOSÉ ANTONIO ECHEVERRIA BIANCHI - PMF SOUZA SOARES</Name>
+<EntityName>JOSÉ ANTONIO ECHEVERRIA BIANCHI - PMF SOUZA SOARES</EntityName>
+<DisplayName>PMF SOUZA SOARES</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Lions Club, 37 - Santa Rosa</Address>
+<AddressLine>Rua Lions Club, 37</AddressLine>
 <Location>Santa Rosa</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -352,9 +377,10 @@
 </Entity>
 <Entity>
 <ID>26</ID>
-<Name>CARLOS J. FINLAY - PMF VITAL BRAZIL</Name>
+<EntityName>CARLOS J. FINLAY - PMF VITAL BRAZIL</EntityName>
+<DisplayName>PMF VITAL BRAZIL</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua João da Lossi - Trav. F nº 8 - Vital Brasil</Address>
+<AddressLine>Rua João da Lossi (Travessa F) nº 8</AddressLine>
 <Location>Vital Brasil</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -366,9 +392,10 @@
 </Entity>
 <Entity>
 <ID>27</ID>
-<Name>FRANK PAÍS GARCIA - PMF CAVALÃO</Name>
+<EntityName>FRANK PAÍS GARCIA - PMF CAVALÃO</EntityName>
+<DisplayName>PMF CAVALÃO</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Alameda Paris s/nº - São Francisco</Address>
+<AddressLine>Alameda Paris s/nº (Morro do Cavalão)</AddressLine>
 <Location>São Francisco</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -380,9 +407,10 @@
 </Entity>
 <Entity>
 <ID>28</ID>
-<Name>ABEL SANTAMARIA - PMF PREVENTÓRIO I</Name>
+<EntityName>ABEL SANTAMARIA - PMF PREVENTÓRIO I</EntityName>
+<DisplayName>PMF PREVENTÓRIO I</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Travessa Carmita s/nº - Charitas</Address>
+<AddressLine>Travessa Carmita s/nº (Preventório)</AddressLine>
 <Location>Charitas</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -394,9 +422,10 @@
 </Entity>
 <Entity>
 <ID>29</ID>
-<Name>CALIXTO GARCIA - PMF PREVENTÓRIO II</Name>
+<EntityName>CALIXTO GARCIA - PMF PREVENTÓRIO II</EntityName>
+<DisplayName>PMF PREVENTÓRIO II</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Av.Quintino Bocaiúva s/nº - Charitas</Address>
+<AddressLine>Av.Quintino Bocaiúva s/nº</AddressLine>
 <Location>Charitas</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -408,9 +437,10 @@
 </Entity>
 <Entity>
 <ID>30</ID>
-<Name>MÁRIO MUNHOZ MONROE - PMF JURUJUBA (Carcarejo)</Name>
+<EntityName>MÁRIO MUNHOZ MONROE - PMF JURUJUBA (Carcarejo)</EntityName>
+<DisplayName>PMF JURUJUBA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Av.Carlos Ermelindo Marins s/nº - Jurujuba </Address>
+<AddressLine>Av.Carlos Ermelindo Marins s/nº</AddressLine>
 <Location>Jurujuba</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -422,9 +452,10 @@
 </Entity>
 <Entity>
 <ID>31</ID>
-<Name>JOSÉ SUÁREZ BLANCO - PMF JONATHAS BOTELHO</Name>
+<EntityName>JOSÉ SUÁREZ BLANCO - PMF JONATHAS BOTELHO</EntityName>
+<DisplayName>PMF JONATHAS BOTELHO</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Trav.Jonathas Botelho, 133 - Cubango </Address>
+<AddressLine>Trav. Jonathas Botelho, 133</AddressLine>
 <Location>Cubango</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -436,9 +467,10 @@
 </Entity>
 <Entity>
 <ID>32</ID>
-<Name>PMF LAGOINHA </Name>
+<EntityName>PMF LAGOINHA </EntityName>
+<DisplayName>PMF LAGOINHA </DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Av.Colônia s/nº - Cubango</Address>
+<AddressLine>Av. Colônia s/nº</AddressLine>
 <Location>Cubango</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -450,9 +482,10 @@
 </Entity>
 <Entity>
 <ID>33</ID>
-<Name>JÚLIO DIAZ GONZALEZ - PMF LEOPOLDINA</Name>
+<EntityName>JÚLIO DIAZ GONZALEZ - PMF LEOPOLDINA</EntityName>
+<DisplayName>PMF LEOPOLDINA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua George Allan s/nº - Largo dos Barradas - Barreto </Address>
+<AddressLine>Rua George Allan s/nº, Largo dos Barradas</AddressLine>
 <Location>Barreto</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -464,9 +497,10 @@
 </Entity>
 <Entity>
 <ID>34</ID>
-<Name>CARLOS RAFAEL RODRIGUES - PMF MARÍTIMOS</Name>
+<EntityName>CARLOS RAFAEL RODRIGUES - PMF MARÍTIMOS</EntityName>
+<DisplayName>PMF MARÍTIMOS</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Av. Machado, s/nº - Barreto </Address>
+<AddressLine>Av. Machado, s/nº</AddressLine>
 <Location>Barreto</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -478,9 +512,10 @@
 </Entity>
 <Entity>
 <ID>35</ID>
-<Name>JORGE LUIZ CAMACHO RODRIGUES - PMF MARUÍ</Name>
+<EntityName>JORGE LUIZ CAMACHO RODRIGUES - PMF MARUÍ</EntityName>
+<DisplayName>PMF MARUÍ</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Monsenhor Raeder, 151 - Barreto </Address>
+<AddressLine>Rua Monsenhor Raeder, 151</AddressLine>
 <Location>Barreto</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -492,9 +527,10 @@
 </Entity>
 <Entity>
 <ID>36</ID>
-<Name>ANTÔNIO LÔPEZ - PMF NOVA BRASÍLIA </Name>
+<EntityName>ANTÔNIO LÔPEZ - PMF NOVA BRASÍLIA </EntityName>
+<DisplayName>PMF NOVA BRASÍLIA </DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Professor João Brasil, 1726 - Engenhoca</Address>
+<AddressLine>Rua Professor João Brasil, 1726</AddressLine>
 <Location>Engenhoca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -506,9 +542,10 @@
 </Entity>
 <Entity>
 <ID>37</ID>
-<Name>WILMA ESPIN - PMF VILA IPIRANGA</Name>
+<EntityName>WILMA ESPIN - PMF VILA IPIRANGA</EntityName>
+<DisplayName>PMF VILA IPIRANGA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Tenente Osório, s/nº  Fonseca</Address>
+<AddressLine>Rua Tenente Osório, 73</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -520,9 +557,10 @@
 </Entity>
 <Entity>
 <ID>38</ID>
-<Name>HAIDÉE SANTAMARIA I - PMF CANTAGALO </Name>
+<EntityName>HAIDÉE SANTAMARIA I - PMF CANTAGALO </EntityName>
+<DisplayName>PMF CANTAGALO </DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Estrada Francisco Cruz Nunes s/nº - Cantagalo </Address>
+<AddressLine>Av. Nelson de Oliveira e Silva s/nº</AddressLine>
 <Location>Cantagalo</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -534,9 +572,10 @@
 </Entity>
 <Entity>
 <ID>39</ID>
-<Name>SALVADOR ALLENDE - PMF ATALAIA</Name>
+<EntityName>SALVADOR ALLENDE - PMF ATALAIA</EntityName>
+<DisplayName>PMF ATALAIA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Padre José Euger - s/nº - Atalaia</Address>
+<AddressLine>Rua Padre José Euger</AddressLine>
 <Location>Atalaia</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -548,9 +587,10 @@
 </Entity>
 <Entity>
 <ID>40</ID>
-<Name>DR. WILSON DE OLIVEIRA - PMF ITITIOCA</Name>
+<EntityName>DR. WILSON DE OLIVEIRA - PMF ITITIOCA</EntityName>
+<DisplayName>PMF ITITIOCA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Vila Costa Monteiro s/nº - Ititioca</Address>
+<AddressLine>Rua Vila Costa Monteiro s/nº</AddressLine>
 <Location>Ititioca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -562,9 +602,10 @@
 </Entity>
 <Entity>
 <ID>41</ID>
-<Name>WILLIAN SOLLER I - PMF ENGENHO DO MATO </Name>
+<EntityName>WILLIAN SOLLER I - PMF ENGENHO DO MATO </EntityName>
+<DisplayName>PMF ENGENHO DO MATO </DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Estrada Irene Lopes Sodré s/nº - Engenho do Mato </Address>
+<AddressLine>Estrada Irene Lopes Sodré s/nº</AddressLine>
 <Location>Engenho do Mato</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -576,9 +617,10 @@
 </Entity>
 <Entity>
 <ID>42</ID>
-<Name>ERNESTO CHE GUEVARA I - PMF CAFUBÁ I</Name>
+<EntityName>ERNESTO CHE GUEVARA I - PMF CAFUBÁ I</EntityName>
+<DisplayName>PMF CAFUBÁ I</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Av.Raúl de Oliveira Rodrigues, S/Nº - Cafubá</Address>
+<AddressLine>Av.Raúl de Oliveira Rodrigues, S/Nº </AddressLine>
 <Location>Cafubá</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -590,9 +632,10 @@
 </Entity>
 <Entity>
 <ID>43</ID>
-<Name>ERNESTO CHE GUEVARA II - PMF CAFUBÁ II</Name>
+<EntityName>ERNESTO CHE GUEVARA II - PMF CAFUBÁ II</EntityName>
+<DisplayName>PMF CAFUBÁ II</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Vereador Luiz Erthal, Lt. 05, Qd. 69 - Cafubá </Address>
+<AddressLine>Rua Vereador Luiz Erthal, Lt. 05, Qd. 69 </AddressLine>
 <Location>Cafubá</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -604,9 +647,10 @@
 </Entity>
 <Entity>
 <ID>44</ID>
-<Name>ALBERTO RICARDO HATIN - PMF CAFUBÁ III</Name>
+<EntityName>ALBERTO RICARDO HATIN - PMF CAFUBÁ III</EntityName>
+<DisplayName>PMF CAFUBÁ III</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Manoel Pacheco de Carvalho 107 - Piratininga</Address>
+<AddressLine>Rua Manoel Pacheco de Carvalho 107</AddressLine>
 <Location>Piratininga</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -618,9 +662,10 @@
 </Entity>
 <Entity>
 <ID>45</ID>
-<Name>CTE. MANOEL PIÑEIRO LOZADA - PMF MARAVISTA</Name>
+<EntityName>CTE. MANOEL PIÑEIRO LOZADA - PMF MARAVISTA</EntityName>
+<DisplayName>PMF MARAVISTA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Astor da Costa Menezes, S/Nº - Maravista</Address>
+<AddressLine>Rua Astor da Costa Menezes, S/Nº </AddressLine>
 <Location>Maravista</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -632,10 +677,11 @@
 </Entity>
 <Entity>
 <ID>46</ID>
-<Name>PMF COLONIA</Name>
+<EntityName>PMF COLONIA</EntityName>
+<DisplayName>PMF COLONIA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Praia de Itaipu - Colônia dos Pescadores </Address>
-<Location>Colônia dos Pescadores</Location>
+<AddressLine>Praia de Itaipu</AddressLine>
+<Location>Itaipu</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>2609-4332</PhoneNumbers>
@@ -646,9 +692,10 @@
 </Entity>
 <Entity>
 <ID>47</ID>
-<Name>DR. OMAR MARINHO VIEIRA - PMF ALARICO DE SOUZA</Name>
+<EntityName>DR. OMAR MARINHO VIEIRA - PMF ALARICO DE SOUZA</EntityName>
+<DisplayName>PMF ALARICO DE SOUZA</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Estrada Alarico de Souza, s/nº - Santa Rosa</Address>
+<AddressLine>Estrada Alarico de Souza, s/nº</AddressLine>
 <Location>Santa Rosa</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -660,9 +707,10 @@
 </Entity>
 <Entity>
 <ID>48</ID>
-<Name>RAUL CARLOS PARETO JR. - PMF BERNARDINO</Name>
+<EntityName>RAUL CARLOS PARETO JR. - PMF BERNARDINO</EntityName>
+<DisplayName>PMF BERNARDINO</DisplayName>
 <Health_Type>Medico de Familia</Health_Type>
-<Address>Rua Sá Barreto, nº 107 - Fonseca - ao lado da UPA</Address>
+<AddressLine>Rua Sá Barreto, nº 107 (ao lado da UPA)</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -674,9 +722,10 @@
 </Entity>
 <Entity>
 <ID>49</ID>
-<Name>UBS CENTRO DR. EDUARDO IMBASSAY </Name>
+<EntityName>UBS CENTRO DR. EDUARDO IMBASSAY </EntityName>
+<DisplayName>UBS CENTRO</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Rua Visconde de Uruguai, 531 - Centro</Address>
+<AddressLine>Rua Visconde de Uruguai, 531 3o andar</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -688,9 +737,10 @@
 </Entity>
 <Entity>
 <ID>50</ID>
-<Name>UBS MORRO DO ESTADO DR. MARIO PARDAL </Name>
+<EntityName>UBS MORRO DO ESTADO DR. MARIO PARDAL </EntityName>
+<DisplayName>UBS MORRO DO ESTADO</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Rua Araujo Pimenta s/nº </Address>
+<AddressLine>Rua Araujo Pimenta s/nº (Morro do Estado)</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -702,10 +752,11 @@
 </Entity>
 <Entity>
 <ID>51</ID>
-<Name>UBS SANTA BÁRBARA ADELINO DE MENDONÇA E SILVA </Name>
+<EntityName>UBS SANTA BÁRBARA ADELINO DE MENDONÇA E SILVA </EntityName>
+<DisplayName>UBS SANTA BÁRBARA</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
-<Location>Engenhoca</Location>
+<AddressLine>Rua Jandira Pereira, 625</AddressLine>
+<Location>Santa Bárbara</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
 <PhoneNumbers>3603-8874; 2628-8047</PhoneNumbers>
@@ -716,9 +767,10 @@
 </Entity>
 <Entity>
 <ID>52</ID>
-<Name>UBS – BARRETO – Dr. João da Silva Vizella </Name>
+<EntityName>UBS – BARRETO – Dr. João da Silva Vizella </EntityName>
+<DisplayName>UBS BARRETO</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Rua Luiz Palmier, 726 - Barreto</Address>
+<AddressLine>Rua Luiz Palmier, 726</AddressLine>
 <Location>Barreto</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -730,9 +782,10 @@
 </Entity>
 <Entity>
 <ID>53</ID>
-<Name>UBS – BALDEADOR DEPUTADO JOSÉ SALLY  </Name>
+<EntityName>UBS – BALDEADOR DEPUTADO JOSÉ SALLY  </EntityName>
+<DisplayName>UBS BALDEADOR</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Lot.Bento Pestana s/nº - Morro do Castro</Address>
+<AddressLine>Lot.Bento Pestana s/nº (Morro do Castro)</AddressLine>
 <Location>Baldeador</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -744,9 +797,10 @@
 </Entity>
 <Entity>
 <ID>54</ID>
-<Name>UBS PIRATININGA DOM LUIZ ORIONE</Name>
+<EntityName>UBS PIRATININGA DOM LUIZ ORIONE</EntityName>
+<DisplayName>UBS PIRATININGA DOM LUIZ</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Av. dos Pescadores - Lotes 2,3 e 4 - Piratininga</Address>
+<AddressLine>Av. dos Pescadores (Av. 4 Lotes 2,3 e 4)</AddressLine>
 <Location>Piratininga</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -758,9 +812,10 @@
 </Entity>
 <Entity>
 <ID>55</ID>
-<Name>UBS – VARZEA DAS MOÇAS DR. TOBIAS TOSTES MACHADO </Name>
+<EntityName>UBS – VARZEA DAS MOÇAS DR. TOBIAS TOSTES MACHADO </EntityName>
+<DisplayName>UBS VARZEA DAS MOÇAS</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Estrada Velha de Maricá s/nº - Várzea das Moças</Address>
+<AddressLine>Estrada Velha de Maricá s/nº</AddressLine>
 <Location>Várzea das Moças</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -772,9 +827,10 @@
 </Entity>
 <Entity>
 <ID>56</ID>
-<Name>UBS – ENGENHOCA – Policlinica Regional Norte II Dr.Renato Silva</Name>
+<EntityName>UBS – ENGENHOCA – Policlinica Regional Norte II Dr.Renato Silva</EntityName>
+<DisplayName>UBS ENGENHOCA</DisplayName>
 <Health_Type>Posto de Saude</Health_Type>
-<Address>Av.Prof.João Brasil s/nº - Engenhoca</Address>
+<AddressLine>Rua Cel. Guimarães, 724</AddressLine>
 <Location>Engenhoca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -786,9 +842,10 @@
 </Entity>
 <Entity>
 <ID>57</ID>
-<Name>CAPS Casa do Largo</Name>
+<EntityName>CAPS Casa do Largo</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>R. Nilo de Freitas, 41.Lgo. Batalha</Address>
+<AddressLine>R. Nilo de Freitas, 41</AddressLine>
 <Location>Largo da Batalha</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -800,9 +857,10 @@
 </Entity>
 <Entity>
 <ID>58</ID>
-<Name>CAPS Herbert de Souza</Name>
+<EntityName>CAPS Herbert de Souza</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>R. Marques de Olinda, 104. Centro</Address>
+<AddressLine>R. Marques de Olinda, 104</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -814,9 +872,10 @@
 </Entity>
 <Entity>
 <ID>59</ID>
-<Name>CAPS AD Alameda</Name>
+<EntityName>CAPS AD Alameda</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>Alameda São Boaventura, 129. Fonseca</Address>
+<AddressLine>Alameda São Boaventura, 129</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -828,9 +887,10 @@
 </Entity>
 <Entity>
 <ID>60</ID>
-<Name>CAPSi Monteiro Lobato</Name>
+<EntityName>CAPSi Monteiro Lobato</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>R. Tiradentes, 18. Ingá</Address>
+<AddressLine>R. Tiradentes, 18</AddressLine>
 <Location>Ingá</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -842,9 +902,10 @@
 </Entity>
 <Entity>
 <ID>61</ID>
-<Name>Amb. Engenhoca</Name>
+<EntityName>Amb. Engenhoca</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>R. Pça Vital Brasil s/ no.Vital Brasil</Address>
+<AddressLine>R. Pça Vital Brasil s/nº</AddressLine>
 <Location>Vital Brasil</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -856,9 +917,10 @@
 </Entity>
 <Entity>
 <ID>62</ID>
-<Name>Amb. Carlos Antônio da Silva</Name>
+<EntityName>Amb. Carlos Antônio da Silva</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>Av. Jansen de Melo s/ no.Centro</Address>
+<AddressLine>Av. Jansen de Melo s/nº</AddressLine>
 <Location>Centro</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -870,9 +932,10 @@
 </Entity>
 <Entity>
 <ID>63</ID>
-<Name>Amb. Jurujuba</Name>
+<EntityName>Amb. Jurujuba</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>Av. Quintino bocaiúva s/ no.Charitas</Address>
+<AddressLine>Av. Quintino bocaiúva s/nº</AddressLine>
 <Location>Charitas</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -884,9 +947,10 @@
 </Entity>
 <Entity>
 <ID>64</ID>
-<Name>Amb. Pendotiba</Name>
+<EntityName>Amb. Pendotiba</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>R. Miguel Pereira Sarmento, 3/204 – Pendotiba</Address>
+<AddressLine>R. Miguel Pereira Sarmento, 3/204</AddressLine>
 <Location>Pendotiba</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -898,9 +962,10 @@
 </Entity>
 <Entity>
 <ID>65</ID>
-<Name>R. Terapêutica Pendotiba</Name>
+<EntityName>R. Terapêutica Pendotiba</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>Est. Caetano Monteiro, 253 – Pendotiba</Address>
+<AddressLine>Est. Caetano Monteiro, 253</AddressLine>
 <Location>Pendotiba</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -912,9 +977,10 @@
 </Entity>
 <Entity>
 <ID>66</ID>
-<Name>R. Terapêutica Fonseca</Name>
+<EntityName>R. Terapêutica Fonseca</EntityName>
+<DisplayName></DisplayName>
 <Health_Type>Saude Mental</Health_Type>
-<Address>R. Magnólia Brasil, 55 casa 1 – Fonseca</Address>
+<AddressLine>R. Magnólia Brasil, 55 casa 1</AddressLine>
 <Location>Fonseca</Location>
 <City>Niterói</City>
 <State>Rio de Janeiro</State>
@@ -923,5 +989,35 @@
 <Description>Atende todo o municipio</Description>
 <Latitude></Latitude>
 <Longitude></Longitude>
+</Entity>
+<Entity>
+<ID>67</ID>
+<EntityName>Hospital Universitário Antônio Pedro</EntityName>
+<DisplayName></DisplayName>
+<Health_Type>Hospital</Health_Type>
+<AddressLine>Rua Marques de Paraná, 303</AddressLine>
+<Location>Centro</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers>2629-9064/2629-9454/2629-9000/2629-9001</PhoneNumbers>
+<Email></Email>
+<Description>Atende somente casos que demandem serviços de alta complexidade, referenciados por outras unidades de saúde (inclusive em emergência).</Description>
+<Latitude>-22.895061</Latitude>
+<Longitude>-43.112695</Longitude>
+</Entity>
+<Entity>
+<ID>68</ID>
+<EntityName>Tayssa Ermida Alves - PMF Viçoso Jardim</EntityName>
+<DisplayName>PMF Viçoso Jardim</DisplayName>
+<Health_Type>Medico de Familia</Health_Type>
+<AddressLine>Estrada Viçoso Jardim, 468</AddressLine>
+<Location>Viçoso Jardim</Location>
+<City>Niterói</City>
+<State>Rio de Janeiro</State>
+<PhoneNumbers></PhoneNumbers>
+<Email></Email>
+<Description>Inaugurada em 2013, a unidade oferece serviços de atenção à saúde da criança e do adolescente, saúde bucal, saúde da mulher e do homem, saúde do idoso e vigilância em saúde.</Description>
+<Latitude>-22.893231</Latitude>
+<Longitude>-43.083036</Longitude>
 </Entity>
 </Entities>
