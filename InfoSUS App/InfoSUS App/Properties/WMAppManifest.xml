@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
-  <DefaultLanguage xmlns="" code="en-US" />
+  <DefaultLanguage xmlns="" code="pt-BR" />
   <Languages xmlns="">
     <Language code="en-US" />
+    <Language code="pt-BR" />
   </Languages>
-  <App xmlns="" ProductID="{6a85c4e7-e37c-4538-8270-194e39b50ac3}" Title="InfoSUS_App" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="InfoSUS_App author" BitsPerPixel="32" Description="Apache Cordova for Windows Phone" Publisher="InfoSUS_App" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}">
-    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+  <App xmlns="" ProductID="{6a85c4e7-e37c-4538-8270-194e39b50ac3}" Title="InfoSUS" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Raí Mesquita" BitsPerPixel="32" Description="Uma aplicação desenvolvidas para os usuários do SUS em Niterói/RJ." Publisher="Raí Mesquita" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}">
+    <IconPath IsRelative="true" IsResource="false">www\img\SUSIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
       <Capability Name="ID_CAP_NETWORKING" />
@@ -17,25 +18,23 @@
     <Tokens>
       <PrimaryToken TokenID="InfoSUS_AppToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsResource="false" IsRelative="true">Background.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">www\img\SUSIcon.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsResource="false" IsRelative="true">Background.png</BackgroundImageURI>
-          <Title>InfoSUS_App</Title>
+          <BackgroundImageURI IsRelative="true" IsResource="false">www\img\SUSBackground.png</BackgroundImageURI>
+          <Title>InfoSUS</Title>
           <BackContent>
           </BackContent>
-          <BackBackgroundImageURI>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false">
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
-          <LargeBackgroundImageURI>
-          </LargeBackgroundImageURI>
-          <LargeBackContent>
-          </LargeBackContent>
-          <LargeBackBackgroundImageURI>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">www\img\SUSBackground.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
           </LargeBackBackgroundImageURI>
-          <DeviceLockImageURI>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
           </DeviceLockImageURI>
-          <HasLarge>false</HasLarge>
+          <HasLarge>True</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

@@ -172,12 +172,14 @@
     <Content Include="www\cordova.js" />
     <Content Include="www\css\jquery.mobile-1.4.5.css" />
     <Content Include="www\css\jquery.mobile-1.4.5.min.css" />
-    <Content Include="www\File\SUS Data Test.xml" />
-    <Content Include="www\File\SUS Data.xml" />
+    <Content Include="www\File\SUS Data.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="www\File\telefonesuteis.xml" />
     <Content Include="www\img\back_button.png" />
     <Content Include="www\img\sus.png" />
-    <Content Include="www\img\Símbolo do SUS.png" />
+    <Content Include="www\img\SUSBackground.png" />
+    <Content Include="www\img\SUSIcon.png" />
     <Content Include="www\index.html" />
     <Content Include="www\css\index.css" />
     <Content Include="www\js\index.js" />
@@ -206,6 +208,7 @@
     <Content Include="www\plugins\org.apache.cordova.geolocation\www\geolocation.js" />
     <Content Include="www\plugins\org.apache.cordova.geolocation\www\Position.js" />
     <Content Include="www\plugins\org.apache.cordova.geolocation\www\PositionError.js" />
+    <Content Include="www\SUSIcon.png" />
     <None Include="cordova\lib\build.js" />
     <None Include="cordova\lib\clean.js" />
     <None Include="cordova\lib\deploy.js" />
