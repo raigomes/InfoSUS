@@ -57,9 +57,9 @@ function onDeviceReady() {
             });
         });
         //Unidades mais próximas
-        $("#btn21").click(function () {
-            Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', { callback: getMapCallback });
-        });
+        //$("#btn21").click(function () {
+        //    Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', { callback: getMapCallback });
+        //});
         //Postos de Saúde
         $("#btn22").click(function () {
             getDataFromXML("File/SUS Data.xml", "Posto de Saude", false);
@@ -151,8 +151,8 @@ function GetMap() {
 function ShowCurrentPosition() {
 
     /*CHANGE COMMENTS LINE WHEN DEPLOYING ON DEVICE*/
-    //watchID = navigator.geolocation.watchPosition(onSuccess, onError);
-    getFakePosition(-22.888460, -43.114689);
+    watchID = navigator.geolocation.watchPosition(onSuccess, onError);
+    //getFakePosition(-22.888460, -43.114689); //Niterói
 }
 
 function getFakePosition(latitude, longitude) {
@@ -289,7 +289,10 @@ function updateFromXML(userData) {
 }
 
 function getClinics(responseXML, healthType) {
-    $("#contentBody").empty();
+    $("#content").remove("#contentBody")
+                 .append("<form><input data-type='search' id='filterCollapsibles' placeholder='Insira a palavra-chave...'></form>")
+                 .append("<div id='contentBody' data-role='collapsible-set' data-filter='true' data-inset='true' data-input='#filterCollapsibles'></div>");
+
     $.each($(responseXML).find("Entity"), function (key, val) {
         if ($(val).find("Health_Type").text() == healthType) {
             var id = $(val).find("ID").text();
@@ -372,12 +375,14 @@ function ShowClinic(latitude, longitude, name, address) {
 
     Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', {
         callback: function () {
-            if (map == null)
+            if (map == null) {
                 GetMap();
+            }
             else
                 map.entities.clear();
 
-            description = address + "<br><br><a href = '#' onclick = 'getDirections()'>Como chegar</a>";
+            //description = address + "<br><br><a href = '#' onclick = 'getDirections()'>Como chegar</a>";
+            description = address;
 
             AddPushPin(latitude, longitude, name, description, 'img/sus.png');
             ChangeView(new Microsoft.Maps.Location(latitude, longitude), 15);
@@ -422,8 +427,6 @@ function AddPushPin(latitude, longitude, pinTitle, pinDescription, pinIcon) {
 //Get Latlong By Address (I guess...)
 
 function callSearchService(entityName, entityAddress) {
-    alert(entityName + " " + entityAddress);
-
     Microsoft.Maps.loadModule('Microsoft.Maps.Search', {
         callback: function () {
             var searchManager = new Microsoft.Maps.Search.SearchManager(map);
