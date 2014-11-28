@@ -253,7 +253,6 @@
     <None Include="www\plugins\org.apache.cordova.geolocation\README.md" />
     <None Include="www\plugins\org.apache.cordova.geolocation\RELEASENOTES.md" />
     <None Include="www\plugins\org.apache.cordova.geolocation\src\ios\CDVLocation.m" />
-    <None Include="www\telefonesuteis.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationIcon.png">

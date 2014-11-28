@@ -201,9 +201,9 @@ function getNeighbors(responseXML) {
         city = $(val).find("City").text();
         latidude = $(val).find("Latitude").text();
         longitude = $(val).find("Longitude").text();
-        
-        var clinicData = { id: id, name: displayName, address: address, location: location, city: city, distance: 0};
-        calculateDistance(latidude, longitude, clinics , clinicData);
+
+        var clinicData = { id: id, name: displayName, address: address, location: location, city: city, distance: 0 };
+        calculateDistance(latidude, longitude, clinics, clinicData);
     });
 
     clinics.sort(function (a, b) {
@@ -238,19 +238,19 @@ function calculateDistance(entityLatitude, entityLongitude, clinicArray, clinicD
                     errorCallback: searchError,
                     data: clinicData
                 };
-                searchManager.geocode(geocodeRequest);                
+                searchManager.geocode(geocodeRequest);
             }
         });
 
         sleep(400);
     }
     else {
-        clinicData.distance = GeoCodeCalc.CalcDistance(myLatitude, myLongitude, entityLatitude, entityLongitude, GeoCodeCalc.EarthRadiusInKilometers);        
+        clinicData.distance = GeoCodeCalc.CalcDistance(myLatitude, myLongitude, entityLatitude, entityLongitude, GeoCodeCalc.EarthRadiusInKilometers);
         clinicArray.concat(clinicData);
-    }        
+    }
 }
 
-function calculate(geocodeResponse, data) {    
+function calculate(geocodeResponse, data) {
     var response = geocodeResponse.results[0];
     data.distance = GeoCodeCalc.CalcDistance(myLatitude, myLongitude, response.location.latidude, response.location.longitude, GeoCodeCalc.EarthRadiusInKilometers);
     clinicArray.concat(data);
@@ -289,10 +289,13 @@ function updateFromXML(userData) {
 }
 
 function getClinics(responseXML, healthType) {
-    $("#content").remove("#contentBody")
-                 .append("<form><input data-type='search' id='filterCollapsibles' placeholder='Insira a palavra-chave...'></form>")
-                 .append("<div id='contentBody' data-role='collapsible-set' data-filter='true' data-inset='true' data-input='#filterCollapsibles'></div>");
-
+    if ($("#contentCollapsible").children().length) {
+        $("#contentCollapsible").empty();
+    }
+    else {
+        $("#contentBody").prepend("<form><input data-type='search' id='filterCollapsibles' placeholder='Insira a palavra-chave...'></form>")
+                         .append("<div id='contentCollapsible' data-role='collapsible-set' data-filter='true' data-inset='true' data-input='#filterCollapsibles'></div>");
+    }
     $.each($(responseXML).find("Entity"), function (key, val) {
         if ($(val).find("Health_Type").text() == healthType) {
             var id = $(val).find("ID").text();
@@ -306,7 +309,7 @@ function getClinics(responseXML, healthType) {
             var email = $(val).find("Email").text();
             var description = $(val).find("Description").text();
 
-            $("#contentBody").append("<div data-role='collapsible' id='clinic" + id + "'></div>");
+            $("#contentCollapsible").append("<div data-role='collapsible' id='clinic" + id + "'></div>");
             $("#clinic" + id).append("<h3>" + displayName + "</h3>");
             $("#clinic" + id).append("<p><b>Unidade: </b>" + name + "</p>");
             $("#clinic" + id).append("<p><b>Tipo: </b>" + type + "</p>");
@@ -329,9 +332,9 @@ function getClinics(responseXML, healthType) {
     });
 
     healthType = parseName(healthType, titleLength);
-
+    
     $("#content").find("h1").empty().append(healthType);
-    $("#contentBody").collapsibleset('refresh');
+    $("#contentCollapsible").collapsibleset('refresh');
 
 }
 
@@ -354,7 +357,7 @@ function showClinicOnMap(val, userData) {
     var entityAddress = userData.address + " - " + userData.location + ", " + userData.city;
 
     if (latitude.length == 0) {
-        
+
         if (map == null) {
             GetMap();
         }
