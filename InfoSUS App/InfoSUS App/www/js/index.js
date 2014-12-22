@@ -310,12 +310,12 @@ function getClinics(responseXML, healthType) {
             var description = $(val).find("Description").text();
 
             $("#contentCollapsible").append("<div data-role='collapsible' id='clinic" + id + "'></div>");
-            $("#clinic" + id).append("<h3>" + displayName + "</h3>");
-            $("#clinic" + id).append("<p><b>Unidade: </b>" + name + "</p>");
-            $("#clinic" + id).append("<p><b>Tipo: </b>" + type + "</p>");
-            $("#clinic" + id).append("<p><b>Endere&ccedil;o: </b>" + address + "</p>");
-            $("#clinic" + id).append("<p><b>Bairro: </b>" + location + "</p>");
-            $("#clinic" + id).append("<p><b>Cidade: </b>" + city + "</p>");
+            $("#clinic" + id).append("<h3>" + displayName + "</h3>")
+                             .append("<p><b>Unidade: </b>" + name + "</p>")
+                             .append("<p><b>Tipo: </b>" + type + "</p>")
+                             .append("<p><b>Endere&ccedil;o: </b>" + address + "</p>")
+                             .append("<p><b>Bairro: </b>" + location + "</p>")
+                             .append("<p><b>Cidade: </b>" + city + "</p>");
 
             if (phoneNumber != "")
                 $("#clinic" + id).append("<p><b>Telefone: </b>" + phoneNumber + "</p>");
